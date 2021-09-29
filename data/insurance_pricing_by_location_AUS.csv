@@ -1,0 +1,89 @@
+SA4 code,Average Premium,Name
+801,870,ACT - Australian Capital Territory
+101,863,NSW - Capital Region
+102,854,NSW - Central Coast
+103,837,NSW - Central West
+104,708,NSW - Coffs Harbour - Grafton
+105,639,NSW - Far West and Orana
+106,796,NSW - Hunter Valley exc Newcastle
+107,821,NSW - Illawarra
+108,691,NSW - Mid North Coast
+109,810,NSW - Murray
+110,818,NSW - New England and North West
+111,785,NSW - Newcastle and Lake Macquarie
+112,672,NSW - Richmond - Tweed
+113,722,NSW - Riverina
+114,745,NSW - Southern Highlands and Shoalhaven
+115,993,NSW - Sydney - Baulkham Hills and Hawkesbury
+116,1085,NSW - Sydney - Blacktown
+117,1257,NSW - Sydney - City and Inner South
+118,1337,NSW - Sydney - Eastern Suburbs
+119,1373,NSW - Sydney - Inner South West
+120,1205,NSW - Sydney - Inner West
+121,1148,NSW - Sydney - North Sydney and Hornsby
+122,1045,NSW - Sydney - Northern Beaches
+123,1182,NSW - Sydney - Outer South West
+124,1104,NSW - Sydney - Outer West and Blue Mountains
+125,1427,NSW - Sydney - Parramatta
+126,1283,NSW - Sydney - Ryde
+127,1358,NSW - Sydney - South West
+128,1000,NSW - Sydney - Sutherland
+701,966,NT - Darwin
+702,948,NT - Northern Territory - Outback
+301,744,QLD - Brisbane - East
+302,723,QLD - Brisbane - North
+303,786,QLD - Brisbane - South
+304,759,QLD - Brisbane - West
+305,839,QLD - Brisbane Inner City
+306,728,QLD - Cairns
+308,727,QLD - Central Queensland
+307,722,QLD - Darling Downs - Maranoa
+309,740,QLD - Gold Coast
+310,758,QLD - Ipswich
+311,736,QLD - Logan - Beaudesert
+312,717,QLD - Mackay - Isaac - Whitsunday
+313,627,QLD - Moreton Bay - North
+314,763,QLD - Moreton Bay - South
+315,819,QLD - Queensland - Outback
+316,627,QLD - Sunshine Coast
+317,736,QLD - Toowoomba
+318,725,QLD - Townsville
+319,652,QLD - Wide Bay
+401,901,SA - Adelaide - Central and Hills
+402,826,SA - Adelaide - North
+403,755,SA - Adelaide - South
+404,826,SA - Adelaide - West
+405,677,SA - Barossa - Yorke - Mid North
+406,774,SA - South Australia - Outback
+407,644,SA - South Australia - South East
+601,689,TAS - Hobart
+602,647,TAS - Launceston and North East
+603,699,TAS - South East
+604,699,TAS - West and North West
+201,734,VIC - Ballarat
+202,740,VIC - Bendigo
+203,837,VIC - Geelong
+204,792,VIC - Hume
+205,795,VIC - Latrobe - Gippsland
+206,1212,VIC - Melbourne - Inner
+207,1217,VIC - Melbourne - Inner East
+208,1177,VIC - Melbourne - Inner South
+209,1099,VIC - Melbourne - North East
+210,1341,VIC - Melbourne - North West
+211,1071,VIC - Melbourne - Outer East
+212,1171,VIC - Melbourne - South East
+213,1239,VIC - Melbourne - West
+214,930,VIC - Mornington Peninsula
+215,786,VIC - North West
+216,852,VIC - Shepparton
+217,658,VIC - Warrnambool and South West
+501,729,WA - Bunbury
+502,731,WA - Mandurah
+503,828,WA - Perth - Inner
+504,738,WA - Perth - North East
+505,757,WA - Perth - North West
+506,779,WA - Perth - South East
+507,706,WA - Perth - South West
+510,792,WA - Western Australia - Outback (North)
+511,884,WA - Western Australia - Outback (South)
+509,760,WA - Western Australia - Wheat Belt
