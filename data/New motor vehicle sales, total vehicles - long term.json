@@ -1,0 +1,862 @@
+[
+ {
+   "month-year": "Nov-03",
+   "Trend ('000)": "78,272.00",
+   "Seasonally Adjusted ('000)": "77,627.50"
+ },
+ {
+   "month-year": "Dec-03",
+   "Trend ('000)": "77,957.40",
+   "Seasonally Adjusted ('000)": "77,572.50"
+ },
+ {
+   "month-year": "Jan-04",
+   "Trend ('000)": "77,762.10",
+   "Seasonally Adjusted ('000)": "76,655.10"
+ },
+ {
+   "month-year": "Feb-04",
+   "Trend ('000)": "77,755.90",
+   "Seasonally Adjusted ('000)": "78,310.30"
+ },
+ {
+   "month-year": "Mar-04",
+   "Trend ('000)": "77,883.90",
+   "Seasonally Adjusted ('000)": "78,215.40"
+ },
+ {
+   "month-year": "Apr-04",
+   "Trend ('000)": "78,043.10",
+   "Seasonally Adjusted ('000)": "78,083.10"
+ },
+ {
+   "month-year": "May-04",
+   "Trend ('000)": "78,240.50",
+   "Seasonally Adjusted ('000)": "78,665.70"
+ },
+ {
+   "month-year": "Jun-04",
+   "Trend ('000)": "78,585.80",
+   "Seasonally Adjusted ('000)": "78,856.80"
+ },
+ {
+   "month-year": "Jul-04",
+   "Trend ('000)": "79,112.30",
+   "Seasonally Adjusted ('000)": "78,002.80"
+ },
+ {
+   "month-year": "Aug-04",
+   "Trend ('000)": "79,740.10",
+   "Seasonally Adjusted ('000)": "79,198.70"
+ },
+ {
+   "month-year": "Sep-04",
+   "Trend ('000)": "80,454.30",
+   "Seasonally Adjusted ('000)": "80,693.40"
+ },
+ {
+   "month-year": "Oct-04",
+   "Trend ('000)": "81,148.10",
+   "Seasonally Adjusted ('000)": "85,529.60"
+ },
+ {
+   "month-year": "Nov-04",
+   "Trend ('000)": "81,755.80",
+   "Seasonally Adjusted ('000)": "81,713.50"
+ },
+ {
+   "month-year": "Dec-04",
+   "Trend ('000)": "82,232.60",
+   "Seasonally Adjusted ('000)": "79,247.00"
+ },
+ {
+   "month-year": "Jan-05",
+   "Trend ('000)": "82,552.10",
+   "Seasonally Adjusted ('000)": "83,272.30"
+ },
+ {
+   "month-year": "Feb-05",
+   "Trend ('000)": "82,706.80",
+   "Seasonally Adjusted ('000)": "84,404.80"
+ },
+ {
+   "month-year": "Mar-05",
+   "Trend ('000)": "82,746.00",
+   "Seasonally Adjusted ('000)": "82,181.60"
+ },
+ {
+   "month-year": "Apr-05",
+   "Trend ('000)": "82,814.50",
+   "Seasonally Adjusted ('000)": "82,886.90"
+ },
+ {
+   "month-year": "May-05",
+   "Trend ('000)": "82,868.50",
+   "Seasonally Adjusted ('000)": "82,525.70"
+ },
+ {
+   "month-year": "Jun-05",
+   "Trend ('000)": "82,851.90",
+   "Seasonally Adjusted ('000)": "82,167.00"
+ },
+ {
+   "month-year": "Jul-05",
+   "Trend ('000)": "82,830.40",
+   "Seasonally Adjusted ('000)": "82,303.20"
+ },
+ {
+   "month-year": "Aug-05",
+   "Trend ('000)": "82,789.70",
+   "Seasonally Adjusted ('000)": "84,163.20"
+ },
+ {
+   "month-year": "Sep-05",
+   "Trend ('000)": "82,585.00",
+   "Seasonally Adjusted ('000)": "84,348.50"
+ },
+ {
+   "month-year": "Oct-05",
+   "Trend ('000)": "82,172.60",
+   "Seasonally Adjusted ('000)": "79,446.60"
+ },
+ {
+   "month-year": "Nov-05",
+   "Trend ('000)": "81,644.40",
+   "Seasonally Adjusted ('000)": "82,030.10"
+ },
+ {
+   "month-year": "Dec-05",
+   "Trend ('000)": "81,135.80",
+   "Seasonally Adjusted ('000)": "81,644.60"
+ },
+ {
+   "month-year": "Jan-06",
+   "Trend ('000)": "80,676.30",
+   "Seasonally Adjusted ('000)": "80,680.80"
+ },
+ {
+   "month-year": "Feb-06",
+   "Trend ('000)": "80,266.10",
+   "Seasonally Adjusted ('000)": "80,340.10"
+ },
+ {
+   "month-year": "Mar-06",
+   "Trend ('000)": "79,882.90",
+   "Seasonally Adjusted ('000)": "79,414.30"
+ },
+ {
+   "month-year": "Apr-06",
+   "Trend ('000)": "79,535.60",
+   "Seasonally Adjusted ('000)": "80,158.10"
+ },
+ {
+   "month-year": "May-06",
+   "Trend ('000)": "79,364.90",
+   "Seasonally Adjusted ('000)": "79,959.20"
+ },
+ {
+   "month-year": "Jun-06",
+   "Trend ('000)": "79,535.40",
+   "Seasonally Adjusted ('000)": "77,419.90"
+ },
+ {
+   "month-year": "Jul-06",
+   "Trend ('000)": "79,893.90",
+   "Seasonally Adjusted ('000)": "80,558.90"
+ },
+ {
+   "month-year": "Aug-06",
+   "Trend ('000)": "80,344.90",
+   "Seasonally Adjusted ('000)": "80,752.20"
+ },
+ {
+   "month-year": "Sep-06",
+   "Trend ('000)": "80,875.40",
+   "Seasonally Adjusted ('000)": "81,505.50"
+ },
+ {
+   "month-year": "Oct-06",
+   "Trend ('000)": "81,584.20",
+   "Seasonally Adjusted ('000)": "81,802.70"
+ },
+ {
+   "month-year": "Nov-06",
+   "Trend ('000)": "82,516.30",
+   "Seasonally Adjusted ('000)": "81,986.20"
+ },
+ {
+   "month-year": "Dec-06",
+   "Trend ('000)": "83,593.90",
+   "Seasonally Adjusted ('000)": "81,875.30"
+ },
+ {
+   "month-year": "Jan-07",
+   "Trend ('000)": "84,660.40",
+   "Seasonally Adjusted ('000)": "85,124.80"
+ },
+ {
+   "month-year": "Feb-07",
+   "Trend ('000)": "85,593.30",
+   "Seasonally Adjusted ('000)": "86,764.60"
+ },
+ {
+   "month-year": "Mar-07",
+   "Trend ('000)": "86,226.80",
+   "Seasonally Adjusted ('000)": "87,785.40"
+ },
+ {
+   "month-year": "Apr-07",
+   "Trend ('000)": "86,545.40",
+   "Seasonally Adjusted ('000)": "85,710.70"
+ },
+ {
+   "month-year": "May-07",
+   "Trend ('000)": "86,640.10",
+   "Seasonally Adjusted ('000)": "85,846.80"
+ },
+ {
+   "month-year": "Jun-07",
+   "Trend ('000)": "86,740.80",
+   "Seasonally Adjusted ('000)": "85,920.60"
+ },
+ {
+   "month-year": "Jul-07",
+   "Trend ('000)": "87,054.10",
+   "Seasonally Adjusted ('000)": "88,112.40"
+ },
+ {
+   "month-year": "Aug-07",
+   "Trend ('000)": "87,703.70",
+   "Seasonally Adjusted ('000)": "87,729.10"
+ },
+ {
+   "month-year": "Sep-07",
+   "Trend ('000)": "88,522.80",
+   "Seasonally Adjusted ('000)": "87,806.30"
+ },
+ {
+   "month-year": "Oct-07",
+   "Trend ('000)": "89,310.70",
+   "Seasonally Adjusted ('000)": "89,083.80"
+ },
+ {
+   "month-year": "Nov-07",
+   "Trend ('000)": "89,982.00",
+   "Seasonally Adjusted ('000)": "90,570.00"
+ },
+ {
+   "month-year": "Dec-07",
+   "Trend ('000)": "90,474.30",
+   "Seasonally Adjusted ('000)": "90,356.00"
+ },
+ {
+   "month-year": "Jan-08",
+   "Trend ('000)": "90,692.40",
+   "Seasonally Adjusted ('000)": "91,552.50"
+ },
+ {
+   "month-year": "Feb-08",
+   "Trend ('000)": "90,604.90",
+   "Seasonally Adjusted ('000)": "89,308.90"
+ },
+ {
+   "month-year": "Mar-08",
+   "Trend ('000)": "90,109.10",
+   "Seasonally Adjusted ('000)": "90,573.20"
+ },
+ {
+   "month-year": "Apr-08",
+   "Trend ('000)": "89,160.60",
+   "Seasonally Adjusted ('000)": "89,996.00"
+ },
+ {
+   "month-year": "May-08",
+   "Trend ('000)": "87,862.00",
+   "Seasonally Adjusted ('000)": "86,919.40"
+ },
+ {
+   "month-year": "Jun-08",
+   "Trend ('000)": "86,177.30",
+   "Seasonally Adjusted ('000)": "86,926.90"
+ },
+ {
+   "month-year": "Jul-08",
+   "Trend ('000)": "84,154.50",
+   "Seasonally Adjusted ('000)": "84,939.40"
+ },
+ {
+   "month-year": "Aug-08",
+   "Trend ('000)": "81,998.40",
+   "Seasonally Adjusted ('000)": "80,615.20"
+ },
+ {
+   "month-year": "Sep-08",
+   "Trend ('000)": "79,950.90",
+   "Seasonally Adjusted ('000)": "79,968.40"
+ },
+ {
+   "month-year": "Oct-08",
+   "Trend ('000)": "78,160.90",
+   "Seasonally Adjusted ('000)": "79,560.60"
+ },
+ {
+   "month-year": "Nov-08",
+   "Trend ('000)": "76,542.10",
+   "Seasonally Adjusted ('000)": "73,862.30"
+ },
+ {
+   "month-year": "Dec-08",
+   "Trend ('000)": "75,079.80",
+   "Seasonally Adjusted ('000)": "76,386.60"
+ },
+ {
+   "month-year": "Jan-09",
+   "Trend ('000)": "73,878.70",
+   "Seasonally Adjusted ('000)": "75,162.20"
+ },
+ {
+   "month-year": "Feb-09",
+   "Trend ('000)": "73,071.70",
+   "Seasonally Adjusted ('000)": "73,135.90"
+ },
+ {
+   "month-year": "Mar-09",
+   "Trend ('000)": "72,771.00",
+   "Seasonally Adjusted ('000)": "71,004.30"
+ },
+ {
+   "month-year": "Apr-09",
+   "Trend ('000)": "72,986.60",
+   "Seasonally Adjusted ('000)": "71,764.80"
+ },
+ {
+   "month-year": "May-09",
+   "Trend ('000)": "73,628.50",
+   "Seasonally Adjusted ('000)": "75,788.70"
+ },
+ {
+   "month-year": "Jun-09",
+   "Trend ('000)": "74,648.20",
+   "Seasonally Adjusted ('000)": "81,156.80"
+ },
+ {
+   "month-year": "Jul-09",
+   "Trend ('000)": "75,997.50",
+   "Seasonally Adjusted ('000)": "76,474.40"
+ },
+ {
+   "month-year": "Aug-09",
+   "Trend ('000)": "77,468.10",
+   "Seasonally Adjusted ('000)": "75,829.10"
+ },
+ {
+   "month-year": "Sep-09",
+   "Trend ('000)": "79,023.80",
+   "Seasonally Adjusted ('000)": "78,353.20"
+ },
+ {
+   "month-year": "Oct-09",
+   "Trend ('000)": "80,626.10",
+   "Seasonally Adjusted ('000)": "82,276.90"
+ },
+ {
+   "month-year": "Nov-09",
+   "Trend ('000)": "82,257.40",
+   "Seasonally Adjusted ('000)": "85,663.50"
+ },
+ {
+   "month-year": "Dec-09",
+   "Trend ('000)": "83,802.40",
+   "Seasonally Adjusted ('000)": "89,095.90"
+ },
+ {
+   "month-year": "Jan-10",
+   "Trend ('000)": "85,135.90",
+   "Seasonally Adjusted ('000)": "86,146.30"
+ },
+ {
+   "month-year": "Feb-10",
+   "Trend ('000)": "86,183.70",
+   "Seasonally Adjusted ('000)": "86,045.30"
+ },
+ {
+   "month-year": "Mar-10",
+   "Trend ('000)": "86,866.30",
+   "Seasonally Adjusted ('000)": "85,782.70"
+ },
+ {
+   "month-year": "Apr-10",
+   "Trend ('000)": "87,170.00",
+   "Seasonally Adjusted ('000)": "92,950.10"
+ },
+ {
+   "month-year": "May-10",
+   "Trend ('000)": "87,051.40",
+   "Seasonally Adjusted ('000)": "88,942.10"
+ },
+ {
+   "month-year": "Jun-10",
+   "Trend ('000)": "86,544.90",
+   "Seasonally Adjusted ('000)": "87,055.60"
+ },
+ {
+   "month-year": "Jul-10",
+   "Trend ('000)": "85,836.30",
+   "Seasonally Adjusted ('000)": "85,016.60"
+ },
+ {
+   "month-year": "Aug-10",
+   "Trend ('000)": "85,171.80",
+   "Seasonally Adjusted ('000)": "83,839.90"
+ },
+ {
+   "month-year": "Sep-10",
+   "Trend ('000)": "84,721.70",
+   "Seasonally Adjusted ('000)": "85,343.30"
+ },
+ {
+   "month-year": "Oct-10",
+   "Trend ('000)": "84,580.50",
+   "Seasonally Adjusted ('000)": "84,367.60"
+ },
+ {
+   "month-year": "Nov-10",
+   "Trend ('000)": "84,688.80",
+   "Seasonally Adjusted ('000)": "84,495.50"
+ },
+ {
+   "month-year": "Dec-10",
+   "Trend ('000)": "84,865.40",
+   "Seasonally Adjusted ('000)": "86,382.00"
+ },
+ {
+   "month-year": "Jan-11",
+   "Trend ('000)": "84,931.00",
+   "Seasonally Adjusted ('000)": "84,153.40"
+ },
+ {
+   "month-year": "Feb-11",
+   "Trend ('000)": "84,794.00",
+   "Seasonally Adjusted ('000)": "85,147.50"
+ },
+ {
+   "month-year": "Mar-11",
+   "Trend ('000)": "84,591.40",
+   "Seasonally Adjusted ('000)": "87,224.50"
+ },
+ {
+   "month-year": "Apr-11",
+   "Trend ('000)": "84,449.80",
+   "Seasonally Adjusted ('000)": "84,483.10"
+ },
+ {
+   "month-year": "May-11",
+   "Trend ('000)": "84,490.80",
+   "Seasonally Adjusted ('000)": "75,961.20"
+ },
+ {
+   "month-year": "Jun-11",
+   "Trend ('000)": "84,854.20",
+   "Seasonally Adjusted ('000)": "76,749.00"
+ },
+ {
+   "month-year": "Jul-11",
+   "Trend ('000)": "85,405.90",
+   "Seasonally Adjusted ('000)": "85,837.70"
+ },
+ {
+   "month-year": "Aug-11",
+   "Trend ('000)": "85,970.60",
+   "Seasonally Adjusted ('000)": "88,627.00"
+ },
+ {
+   "month-year": "Sep-11",
+   "Trend ('000)": "86,364.60",
+   "Seasonally Adjusted ('000)": "86,218.40"
+ },
+ {
+   "month-year": "Oct-11",
+   "Trend ('000)": "86,567.50",
+   "Seasonally Adjusted ('000)": "88,368.40"
+ },
+ {
+   "month-year": "Nov-11",
+   "Trend ('000)": "86,678.50",
+   "Seasonally Adjusted ('000)": "86,685.70"
+ },
+ {
+   "month-year": "Dec-11",
+   "Trend ('000)": "87,021.30",
+   "Seasonally Adjusted ('000)": "82,423.70"
+ },
+ {
+   "month-year": "Jan-12",
+   "Trend ('000)": "87,740.30",
+   "Seasonally Adjusted ('000)": "86,730.80"
+ },
+ {
+   "month-year": "Feb-12",
+   "Trend ('000)": "88,734.00",
+   "Seasonally Adjusted ('000)": "87,723.60"
+ },
+ {
+   "month-year": "Mar-12",
+   "Trend ('000)": "89,735.40",
+   "Seasonally Adjusted ('000)": "90,856.30"
+ },
+ {
+   "month-year": "Apr-12",
+   "Trend ('000)": "90,630.70",
+   "Seasonally Adjusted ('000)": "91,314.90"
+ },
+ {
+   "month-year": "May-12",
+   "Trend ('000)": "91,486.20",
+   "Seasonally Adjusted ('000)": "93,237.30"
+ },
+ {
+   "month-year": "Jun-12",
+   "Trend ('000)": "92,329.60",
+   "Seasonally Adjusted ('000)": "89,594.60"
+ },
+ {
+   "month-year": "Jul-12",
+   "Trend ('000)": "93,283.70",
+   "Seasonally Adjusted ('000)": "90,791.60"
+ },
+ {
+   "month-year": "Aug-12",
+   "Trend ('000)": "94,353.20",
+   "Seasonally Adjusted ('000)": "94,903.10"
+ },
+ {
+   "month-year": "Sep-12",
+   "Trend ('000)": "95,350.20",
+   "Seasonally Adjusted ('000)": "96,913.70"
+ },
+ {
+   "month-year": "Oct-12",
+   "Trend ('000)": "96,112.00",
+   "Seasonally Adjusted ('000)": "96,505.40"
+ },
+ {
+   "month-year": "Nov-12",
+   "Trend ('000)": "96,416.50",
+   "Seasonally Adjusted ('000)": "95,550.70"
+ },
+ {
+   "month-year": "Dec-12",
+   "Trend ('000)": "96,221.40",
+   "Seasonally Adjusted ('000)": "96,789.80"
+ },
+ {
+   "month-year": "Jan-13",
+   "Trend ('000)": "95,744.60",
+   "Seasonally Adjusted ('000)": "96,038.50"
+ },
+ {
+   "month-year": "Feb-13",
+   "Trend ('000)": "95,280.80",
+   "Seasonally Adjusted ('000)": "95,857.50"
+ },
+ {
+   "month-year": "Mar-13",
+   "Trend ('000)": "94,967.00",
+   "Seasonally Adjusted ('000)": "94,882.20"
+ },
+ {
+   "month-year": "Apr-13",
+   "Trend ('000)": "94,781.70",
+   "Seasonally Adjusted ('000)": "93,936.70"
+ },
+ {
+   "month-year": "May-13",
+   "Trend ('000)": "94,618.10",
+   "Seasonally Adjusted ('000)": "94,611.60"
+ },
+ {
+   "month-year": "Jun-13",
+   "Trend ('000)": "94,434.10",
+   "Seasonally Adjusted ('000)": "95,585.40"
+ },
+ {
+   "month-year": "Jul-13",
+   "Trend ('000)": "94,321.30",
+   "Seasonally Adjusted ('000)": "93,593.30"
+ },
+ {
+   "month-year": "Aug-13",
+   "Trend ('000)": "94,312.70",
+   "Seasonally Adjusted ('000)": "95,389.90"
+ },
+ {
+   "month-year": "Sep-13",
+   "Trend ('000)": "94,402.20",
+   "Seasonally Adjusted ('000)": "93,008.00"
+ },
+ {
+   "month-year": "Oct-13",
+   "Trend ('000)": "94,489.50",
+   "Seasonally Adjusted ('000)": "93,590.90"
+ },
+ {
+   "month-year": "Nov-13",
+   "Trend ('000)": "94,454.50",
+   "Seasonally Adjusted ('000)": "95,364.40"
+ },
+ {
+   "month-year": "Dec-13",
+   "Trend ('000)": "94,218.30",
+   "Seasonally Adjusted ('000)": "96,321.10"
+ },
+ {
+   "month-year": "Jan-14",
+   "Trend ('000)": "93,775.00",
+   "Seasonally Adjusted ('000)": "93,095.00"
+ },
+ {
+   "month-year": "Feb-14",
+   "Trend ('000)": "93,242.50",
+   "Seasonally Adjusted ('000)": "92,530.20"
+ },
+ {
+   "month-year": "Mar-14",
+   "Trend ('000)": "92,810.90",
+   "Seasonally Adjusted ('000)": "92,371.10"
+ },
+ {
+   "month-year": "Apr-14",
+   "Trend ('000)": "92,574.60",
+   "Seasonally Adjusted ('000)": "91,996.70"
+ },
+ {
+   "month-year": "May-14",
+   "Trend ('000)": "92,610.30",
+   "Seasonally Adjusted ('000)": "93,132.10"
+ },
+ {
+   "month-year": "Jun-14",
+   "Trend ('000)": "92,770.30",
+   "Seasonally Adjusted ('000)": "93,333.60"
+ },
+ {
+   "month-year": "Jul-14",
+   "Trend ('000)": "92,863.90",
+   "Seasonally Adjusted ('000)": "93,135.60"
+ },
+ {
+   "month-year": "Aug-14",
+   "Trend ('000)": "92,778.90",
+   "Seasonally Adjusted ('000)": "92,546.90"
+ },
+ {
+   "month-year": "Sep-14",
+   "Trend ('000)": "92,679.50",
+   "Seasonally Adjusted ('000)": "92,749.90"
+ },
+ {
+   "month-year": "Oct-14",
+   "Trend ('000)": "92,741.20",
+   "Seasonally Adjusted ('000)": "92,887.10"
+ },
+ {
+   "month-year": "Nov-14",
+   "Trend ('000)": "93,085.40",
+   "Seasonally Adjusted ('000)": "92,579.00"
+ },
+ {
+   "month-year": "Dec-14",
+   "Trend ('000)": "93,620.90",
+   "Seasonally Adjusted ('000)": "95,093.90"
+ },
+ {
+   "month-year": "Jan-15",
+   "Trend ('000)": "94,185.10",
+   "Seasonally Adjusted ('000)": "93,471.70"
+ },
+ {
+   "month-year": "Feb-15",
+   "Trend ('000)": "94,682.30",
+   "Seasonally Adjusted ('000)": "96,454.40"
+ },
+ {
+   "month-year": "Mar-15",
+   "Trend ('000)": "95,002.20",
+   "Seasonally Adjusted ('000)": "96,524.10"
+ },
+ {
+   "month-year": "Apr-15",
+   "Trend ('000)": "95,213.00",
+   "Seasonally Adjusted ('000)": "94,939.20"
+ },
+ {
+   "month-year": "May-15",
+   "Trend ('000)": "95,396.80",
+   "Seasonally Adjusted ('000)": "93,942.30"
+ },
+ {
+   "month-year": "Jun-15",
+   "Trend ('000)": "95,682.90",
+   "Seasonally Adjusted ('000)": "96,527.20"
+ },
+ {
+   "month-year": "Jul-15",
+   "Trend ('000)": "96,111.20",
+   "Seasonally Adjusted ('000)": "96,217.10"
+ },
+ {
+   "month-year": "Aug-15",
+   "Trend ('000)": "96,621.10",
+   "Seasonally Adjusted ('000)": "95,691.50"
+ },
+ {
+   "month-year": "Sep-15",
+   "Trend ('000)": "97,114.60",
+   "Seasonally Adjusted ('000)": "99,128.30"
+ },
+ {
+   "month-year": "Oct-15",
+   "Trend ('000)": "97,534.00",
+   "Seasonally Adjusted ('000)": "96,708.40"
+ },
+ {
+   "month-year": "Nov-15",
+   "Trend ('000)": "97,936.10",
+   "Seasonally Adjusted ('000)": "98,287.70"
+ },
+ {
+   "month-year": "Dec-15",
+   "Trend ('000)": "98,243.20",
+   "Seasonally Adjusted ('000)": "97,195.20"
+ },
+ {
+   "month-year": "Jan-16",
+   "Trend ('000)": "98,380.60",
+   "Seasonally Adjusted ('000)": "98,627.50"
+ },
+ {
+   "month-year": "Feb-16",
+   "Trend ('000)": "98,293.00",
+   "Seasonally Adjusted ('000)": "99,074.30"
+ },
+ {
+   "month-year": "Mar-16",
+   "Trend ('000)": "98,039.50",
+   "Seasonally Adjusted ('000)": "100,003.60"
+ },
+ {
+   "month-year": "Apr-16",
+   "Trend ('000)": "97,769.30",
+   "Seasonally Adjusted ('000)": "97,099.30"
+ },
+ {
+   "month-year": "May-16",
+   "Trend ('000)": "97,597.10",
+   "Seasonally Adjusted ('000)": "95,737.90"
+ },
+ {
+   "month-year": "Jun-16",
+   "Trend ('000)": "97,648.00",
+   "Seasonally Adjusted ('000)": "98,391.90"
+ },
+ {
+   "month-year": "Jul-16",
+   "Trend ('000)": "97,848.20",
+   "Seasonally Adjusted ('000)": "98,061.70"
+ },
+ {
+   "month-year": "Aug-16",
+   "Trend ('000)": "98,134.30",
+   "Seasonally Adjusted ('000)": "97,930.10"
+ },
+ {
+   "month-year": "Sep-16",
+   "Trend ('000)": "98,273.50",
+   "Seasonally Adjusted ('000)": "99,457.60"
+ },
+ {
+   "month-year": "Oct-16",
+   "Trend ('000)": "98,099.40",
+   "Seasonally Adjusted ('000)": "97,948.20"
+ },
+ {
+   "month-year": "Nov-16",
+   "Trend ('000)": "97,609.30",
+   "Seasonally Adjusted ('000)": "97,147.00"
+ },
+ {
+   "month-year": "Dec-16",
+   "Trend ('000)": "97,039.80",
+   "Seasonally Adjusted ('000)": "97,237.50"
+ },
+ {
+   "month-year": "Jan-17",
+   "Trend ('000)": "96,746.70",
+   "Seasonally Adjusted ('000)": "97,800.30"
+ },
+ {
+   "month-year": "Feb-17",
+   "Trend ('000)": "96,915.40",
+   "Seasonally Adjusted ('000)": "95,207.50"
+ },
+ {
+   "month-year": "Mar-17",
+   "Trend ('000)": "97,576.60",
+   "Seasonally Adjusted ('000)": "96,841.80"
+ },
+ {
+   "month-year": "Apr-17",
+   "Trend ('000)": "98,515.10",
+   "Seasonally Adjusted ('000)": "97,939.20"
+ },
+ {
+   "month-year": "May-17",
+   "Trend ('000)": "99,390.00",
+   "Seasonally Adjusted ('000)": "100,518.10"
+ },
+ {
+   "month-year": "Jun-17",
+   "Trend ('000)": "99,925.50",
+   "Seasonally Adjusted ('000)": "101,924.20"
+ },
+ {
+   "month-year": "Jul-17",
+   "Trend ('000)": "100,026.70",
+   "Seasonally Adjusted ('000)": "99,606.60"
+ },
+ {
+   "month-year": "Aug-17",
+   "Trend ('000)": "99,791.20",
+   "Seasonally Adjusted ('000)": "99,388.10"
+ },
+ {
+   "month-year": "Sep-17",
+   "Trend ('000)": "99,531.20",
+   "Seasonally Adjusted ('000)": "98,881.50"
+ },
+ {
+   "month-year": "Oct-17",
+   "Trend ('000)": "99,472.70",
+   "Seasonally Adjusted ('000)": "99,081.00"
+ },
+ {
+   "month-year": "Nov-17",
+   "Trend ('000)": "99,564.90",
+   "Seasonally Adjusted ('000)": "99,255.80"
+ },
+ {
+   "month-year": "Dec-17",
+   "Trend ('000)": "99,756.20",
+   "Seasonally Adjusted ('000)": "103,743.00"
+ },
+ {
+   "month-year": "",
+   "Trend ('000)": "",
+   "Seasonally Adjusted ('000)": ""
+ },
+ {
+   "month-year": "Source: Australian Bureau of Statistics, Sales of New Motor Vehicles December 2017",
+   "Trend ('000)": "",
+   "Seasonally Adjusted ('000)": ""
+ }
+]
