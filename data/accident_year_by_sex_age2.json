@@ -1,0 +1,232 @@
+[
+ {
+   "age_group": "13-16",
+   "sex": 1,
+   "count": 285
+ },
+ {
+   "age_group": "13-16",
+   "sex": 2,
+   "count": 664
+ },
+ {
+   "age_group": "17-20",
+   "sex": 1,
+   "count": 11291
+ },
+ {
+   "age_group": "17-20",
+   "sex": 2,
+   "count": 17246
+ },
+ {
+   "age_group": "21-24",
+   "sex": 1,
+   "count": 13534
+ },
+ {
+   "age_group": "21-24",
+   "sex": 2,
+   "count": 22195
+ },
+ {
+   "age_group": "25-28",
+   "sex": 1,
+   "count": 11780
+ },
+ {
+   "age_group": "25-28",
+   "sex": 2,
+   "count": 20270
+ },
+ {
+   "age_group": "29-32",
+   "sex": 1,
+   "count": 10318
+ },
+ {
+   "age_group": "29-32",
+   "sex": 2,
+   "count": 17638
+ },
+ {
+   "age_group": "33-36",
+   "sex": 1,
+   "count": 9858
+ },
+ {
+   "age_group": "33-36",
+   "sex": 2,
+   "count": 16107
+ },
+ {
+   "age_group": "37-40",
+   "sex": 1,
+   "count": 9830
+ },
+ {
+   "age_group": "37-40",
+   "sex": 2,
+   "count": 14964
+ },
+ {
+   "age_group": "41-44",
+   "sex": 1,
+   "count": 9510
+ },
+ {
+   "age_group": "41-44",
+   "sex": 2,
+   "count": 14269
+ },
+ {
+   "age_group": "45-48",
+   "sex": 1,
+   "count": 8805
+ },
+ {
+   "age_group": "45-48",
+   "sex": 2,
+   "count": 13755
+ },
+ {
+   "age_group": "49-52",
+   "sex": 1,
+   "count": 7650
+ },
+ {
+   "age_group": "49-52",
+   "sex": 2,
+   "count": 12374
+ },
+ {
+   "age_group": "53-56",
+   "sex": 1,
+   "count": 6463
+ },
+ {
+   "age_group": "53-56",
+   "sex": 2,
+   "count": 11028
+ },
+ {
+   "age_group": "57-60",
+   "sex": 1,
+   "count": 5456
+ },
+ {
+   "age_group": "57-60",
+   "sex": 2,
+   "count": 9403
+ },
+ {
+   "age_group": "61-64",
+   "sex": 1,
+   "count": 4216
+ },
+ {
+   "age_group": "61-64",
+   "sex": 2,
+   "count": 7621
+ },
+ {
+   "age_group": "65-68",
+   "sex": 1,
+   "count": 3257
+ },
+ {
+   "age_group": "65-68",
+   "sex": 2,
+   "count": 5545
+ },
+ {
+   "age_group": "69-72",
+   "sex": 1,
+   "count": 2544
+ },
+ {
+   "age_group": "69-72",
+   "sex": 2,
+   "count": 4100
+ },
+ {
+   "age_group": "73-76",
+   "sex": 1,
+   "count": 1934
+ },
+ {
+   "age_group": "73-76",
+   "sex": 2,
+   "count": 3285
+ },
+ {
+   "age_group": "77-80",
+   "sex": 1,
+   "count": 1618
+ },
+ {
+   "age_group": "77-80",
+   "sex": 2,
+   "count": 2639
+ },
+ {
+   "age_group": "81-84",
+   "sex": 1,
+   "count": 1091
+ },
+ {
+   "age_group": "81-84",
+   "sex": 2,
+   "count": 2023
+ },
+ {
+   "age_group": "85-88",
+   "sex": 1,
+   "count": 677
+ },
+ {
+   "age_group": "85-88",
+   "sex": 2,
+   "count": 1198
+ },
+ {
+   "age_group": "89-92",
+   "sex": 1,
+   "count": 244
+ },
+ {
+   "age_group": "89-92",
+   "sex": 2,
+   "count": 458
+ },
+ {
+   "age_group": "93-96",
+   "sex": 1,
+   "count": 39
+ },
+ {
+   "age_group": "93-96",
+   "sex": 2,
+   "count": 103
+ },
+ {
+   "age_group": "97-100",
+   "sex": 1,
+   "count": 4
+ },
+ {
+   "age_group": "97-100",
+   "sex": 2,
+   "count": 7
+ },
+ {
+   "age_group": "101-104",
+   "sex": 1,
+   "count": 1
+ },
+ {
+   "age_group": "101-104",
+   "sex": 2,
+   "count": 1
+ }
+]
