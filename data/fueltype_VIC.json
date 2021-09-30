@@ -1,0 +1,62 @@
+[
+ {
+   "car type": "leaded",
+   "year": 2016,
+   "amount": 93128
+ },
+ {
+   "car type": "leaded",
+   "year": 2020,
+   "amount": 68372
+ },
+ {
+   "car type": "leaded",
+   "year": 2021,
+   "amount": 65921
+ },
+ {
+   "car type": "unleaded",
+   "year": 2016,
+   "amount": 3538398
+ },
+ {
+   "car type": "unleaded",
+   "year": 2020,
+   "amount": 3730295
+ },
+ {
+   "car type": "unleaded",
+   "year": 2021,
+   "amount": 3727391
+ },
+ {
+   "car type": "Diesel",
+   "year": 2016,
+   "amount": 856587
+ },
+ {
+   "car type": "Diesel",
+   "year": 2020,
+   "amount": 1178911
+ },
+ {
+   "car type": "Diesel",
+   "year": 2021,
+   "amount": 1228562
+ },
+ {
+   "car type": "EV and others",
+   "year": 2016,
+   "amount": 193224
+ },
+ {
+   "car type": "EV and others",
+   "year": 2020,
+   "amount": 141982
+ },
+ {
+   "car type": "EV and others",
+   "year": 2021,
+   "amount": 135298
+ }
+]
