@@ -1,0 +1,87 @@
+[
+ {
+   "SA4 code": 201,
+   "Average Premium": 734,
+   "Name": "VIC - Ballarat"
+ },
+ {
+   "SA4 code": 202,
+   "Average Premium": 740,
+   "Name": "VIC - Bendigo"
+ },
+ {
+   "SA4 code": 203,
+   "Average Premium": 837,
+   "Name": "VIC - Geelong"
+ },
+ {
+   "SA4 code": 204,
+   "Average Premium": 792,
+   "Name": "VIC - Hume"
+ },
+ {
+   "SA4 code": 205,
+   "Average Premium": 795,
+   "Name": "VIC - Latrobe - Gippsland"
+ },
+ {
+   "SA4 code": 206,
+   "Average Premium": 1212,
+   "Name": "VIC - Melbourne - Inner"
+ },
+ {
+   "SA4 code": 207,
+   "Average Premium": 1217,
+   "Name": "VIC - Melbourne - Inner East"
+ },
+ {
+   "SA4 code": 208,
+   "Average Premium": 1177,
+   "Name": "VIC - Melbourne - Inner South"
+ },
+ {
+   "SA4 code": 209,
+   "Average Premium": 1099,
+   "Name": "VIC - Melbourne - North East"
+ },
+ {
+   "SA4 code": 210,
+   "Average Premium": 1341,
+   "Name": "VIC - Melbourne - North West"
+ },
+ {
+   "SA4 code": 211,
+   "Average Premium": 1071,
+   "Name": "VIC - Melbourne - Outer East"
+ },
+ {
+   "SA4 code": 212,
+   "Average Premium": 1171,
+   "Name": "VIC - Melbourne - South East"
+ },
+ {
+   "SA4 code": 213,
+   "Average Premium": 1239,
+   "Name": "VIC - Melbourne - West"
+ },
+ {
+   "SA4 code": 214,
+   "Average Premium": 930,
+   "Name": "VIC - Mornington Peninsula"
+ },
+ {
+   "SA4 code": 215,
+   "Average Premium": 786,
+   "Name": "VIC - North West"
+ },
+ {
+   "SA4 code": 216,
+   "Average Premium": 852,
+   "Name": "VIC - Shepparton"
+ },
+ {
+   "SA4 code": 217,
+   "Average Premium": 658,
+   "Name": "VIC - Warrnambool and South West"
+ }
+]
