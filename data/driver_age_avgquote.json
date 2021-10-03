@@ -1,0 +1,42 @@
+[
+ {
+   "driver_age": "\"20 and under\"",
+   "average quote": 2061,
+   "upper_limit_age": "20"
+ },
+ {
+   "driver_age": "\"21-24\"",
+   "average quote": 1328,
+   "upper_limit_age": "24"
+ },
+ {
+   "driver_age": "\"25-29\"",
+   "average quote": 1284,
+   "upper_limit_age": "29"
+ },
+ {
+   "driver_age": "\"30-39\"",
+   "average quote": 1152,
+   "upper_limit_age": "39"
+ },
+ {
+   "driver_age": "\"40-49\"",
+   "average quote": 1018,
+   "upper_limit_age": "49"
+ },
+ {
+   "driver_age": "\"50-59\"",
+   "average quote": 895,
+   "upper_limit_age": "59"
+ },
+ {
+   "driver_age": "\"60-69\"",
+   "average quote": 797,
+   "upper_limit_age": "69"
+ },
+ {
+   "driver_age": "\"70 and above\"",
+   "average quote": 885,
+   "upper_limit_age": "above"
+ }
+]
