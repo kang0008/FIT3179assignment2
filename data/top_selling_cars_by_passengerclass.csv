@@ -1,0 +1,15 @@
+class,first,second,third
+Micro,Kia Picanto (573),Mitsubishi Mirage (56),Fiat 500 (49)
+Light < $25k,MG3 (859),Suzuki Swift (562),VW Polo (526)
+Light > $25k,Mini (147),Audi A1 (68),Citroen C3 (8)
+Small < $40k,Toyota Corolla (2062),Hyundai i30 (1952),Kia Cerato (1545)
+Small > $40k,Mercedes A-Class (323),BMW 1 Series (223),Audi A3 (124)
+Medium < $60k,Toyota Camry (815),Subaru Liberty (183),Skoda Octavia (153)
+Medium > $60k,Mercedes C-Class (398),BMW 3 Series (139),Lexus IS (96)
+Large < $70k,Kia Stinger (147),Skoda Superb (48),Holden Commodore (0)
+Large > $70k,Mercedes E-Class (58),BMW 5 Series (32),Audi A6 (23)
+Upper Large > $100k,Lexus LS (7),Mercedes-Benz S-Class (6),"Porsche Panamera, Audi A8 & BMW 7 Series (5)"
+People Movers,Kia Carnival (442),Honda Odyssey (67),Hyundai iMAX (67)
+Sports < $80k,Ford Mustang (361),Mazda MX-5 (53),Hyundai Veloster (45)
+Sports > $80k,Mercedes C-Class coupe and convertible (73),BMW 4 Series coupe and convertible (55),Mercedes E-Class coupe and convertible (23)
+Sports > $200k,Porsche 911 (33),Ferrari coupe and convertible (16),Aston Martin coupe and convertible (9)

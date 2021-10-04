@@ -1,0 +1,10 @@
+SUV_class,first,second,third
+Light SUV,Mazda CX-3 (1344),Toyota Yaris Cross (541),VW T-Cross (494)
+Small SUV < $40k,Mitsubishi ASX (1278),MG ZS (1253),Hyundai Kona (1091)
+Small SUV > $40k,Audi Q3 (385),Volvo XC40 (367),Mercedes GLA (365))
+Medium SUV < $60k,Toyota RAV4 (3066),Mazda CX-5 (2081),Nissan X-Trail (1593)
+Medium SUV > $60k,BMW X3 (358),Audi Q5 (305),Volvo XC60 (290)
+SUV Large < $70k,Toyota Prado (1359),Kia Sorento (745),Hyundai Santa Fe & Mazda CX-8 (571)
+SUV Large > $70k,BMW X5 (302),Mercedes-Benz GLE-Class Wagon (262),Audi Q7 (177)
+SUV Upper Large,Toyota LandCruiser (1499),Nissan Patrol (241),
+SUV Upper Large > $100k, Mercedes G-Class (96),Mercedes– Benz GLS-Class (44), BMW X7 (41)
