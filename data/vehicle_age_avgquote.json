@@ -1,6 +1,6 @@
 [
  {
-   "vehicle age": "\"2 and under\"",
+   "vehicle age": "\"<2\"",
    "average_quote": 1381
  },
  {
@@ -16,7 +16,7 @@
    "average_quote": 961
  },
  {
-   "vehicle age": "\"16 and over\"",
+   "vehicle age": "\">16\"",
    "average_quote": 791
  }
 ]

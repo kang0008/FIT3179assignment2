@@ -1,6 +1,6 @@
 [
  {
-   "driver_age": "\"20 and under\"",
+   "driver_age": "\"< 20\"",
    "average quote": 2061,
    "upper_limit_age": "20"
  },
@@ -35,7 +35,7 @@
    "upper_limit_age": "69"
  },
  {
-   "driver_age": "\"70 and above\"",
+   "driver_age": "\"70 >\"",
    "average quote": 885,
    "upper_limit_age": "above"
  }
