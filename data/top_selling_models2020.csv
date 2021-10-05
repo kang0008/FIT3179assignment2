@@ -1,101 +1,100 @@
-Ranking,Model,Sales,Variance %
-1,Toyota HiLux,"45,176",-5.2
-2,Ford Ranger,"40,973",0
-3,Toyota RAV4,"38,357",58.8
-4,Toyota Corolla,"25,882",-15.1
-5,Mazda CX-5,"21,979",-13.9
-6,Hyundai i30,"20,734",-26.9
-7,Mitsubishi Triton,"18,136",-29.8
-8,Toyota Prado,"18,034",-1.6
-9,Kia Cerato,"17,559",-19.3
-10,Hyundai Tucson,"15,789",-13.5
-11,Toyota LandCruiser wagon,"15,078",9.2
-12,Isuzu D-Max,"15,062",-10.8
-13,Mazda3,"14,663",-41.2
-14,Nissan X-Trail,"14,291",-27.6
-15,Mitsubishi ASX,"14,056",-32.4
-16,Mazda CX-3,"13,953",-5.8
-17,Toyota Camry,"13,727",-18.1
-18,Hyundai Kona,"12,514",-6.2
-19,Subaru Forester,"12,300",-18.5
-20,Mitsubishi Outlander,"12,004",-31.5
-21,Nissan Navara,"11,486",-14.4
-22,Toyota LandCruiser 70 Series,"10,064",9.1
-23,Volkswagen Golf,"10,012",-30.3
-24,Kia Seltos,9966,386.6
-25,Mazda BT-50,9588,-15.6
-26,Kia Sportage,9579,-29.8
-27,Honda CR-V,9523,-31
-28,Mazda CX-30,8998,N/A
-29,Toyota C-HR,8500,-9.4
-30,Toyota Kluger,8403,-26.1
-31,Toyota HiAce,8391,37
-32,Honda HR-V,8181,-30.3
-33,Subaru XV,7946,-21
-34,Holden Colorado,7559,-56.7
-35,Honda Civic,7194,-31.7
-36,MG3,7158,78.2
-37,Nissan Qashqai,7057,-39.4
-38,Isuzu MU-X,7049,-16.3
-39,Mazda CX-9,6747,-5.9
-40,Volkswagen Amarok,6349,-24.2
-41,Mercedes-Benz A-Class,6054,29.1
-42,Mitsubishi Pajero Sport,6017,-7.1
-43,Ford Everest,5996,12.4
-44,Volkswagen Tiguan,5611,-27.6
-45,LDV T60,5581,58.1
-46,MG ZS,5494,47.3
-47,Toyota Yaris,5027,-49
-48,Kia Rio,4952,-21
-49,Subaru Outback,4928,-33
-50,Hyundai Santa Fe,4615,-21.2
-51,Kia Sorento,4547,20.4
-52,Mitsubishi Eclipse Cross,4517,-35.5
-53,Mercedes-Benz GLC wagon,4470,-22.5
-54,Suzuki Vitara,4386,-16.5
-55,BMW X3,4360,-4.9
-56,Suzuki Swift,4332,-35.1
-57,Audi Q3,4090,441.7
-58,Hyundai iLoad,3939,0
-59,Kia Picanto,3891,-25.7
-60,Mazda2,3790,-53.8
-61,Mazda CX-8,3738,46.5
-62,Hyundai Venue,3678,195.4
-63,Kia Carnival,3650,-43.8
-64,Volkswagen Polo,3602,-37.1
-65,Volkswagen Tiguan Allspace,3537,-24.2
-66,Lexus NX,3518,1.4
-67,BMW 3 Series,3406,8.6
-68,Subaru Impreza,3390,-25
-69,Mercedes-Benz C-Class,3378,-50.3
-70,Suzuki Baleno,3326,46.1
-71,Ram 1500,3299,26.4
-72,Volvo XC40,3229,13
-73,Mercedes-Benz GLA,3173,23.8
-74,BMW X1,3060,7.5
-75,Audi Q5,2992,-27.9
-76,BMW X5,2956,-15.5
-77,Ford Mustang,2923,-26
-78,Toyota Fortuner,2883,-4.9
-79,Jeep Grand Cherokee,2870,-3.9
-80,Volvo XC60,2858,-16.1
-81,Mercedes-Benz GLE wagon,2854,37.1
-82,Nissan Patrol,2820,44.5
-83,Audi A3,2778,-17.4
-84,Honda Jazz,2692,-48.9
-85,Volkswagen T-Cross,2646,N/A
-86,MG HS,2600,2385.3
-87,Renault Koleos,2408,-4.9
-88,Mitsubishi Pajero,2399,-15.7
-89,Mercedes-Benz X-Class,2386,12.2
-90,Ford Transit Custom,2379,14.9
-91,Suzuki Jimny,2368,70.2
-92,Holden Trax,2314,-51.9
-93,BMW 1 Series,2309,1.8
-94,Porsche Macan,2158,7.4
-95,Skoda Octavia,2111,16.4
-96,Mercedes-Benz CLA,2082,46.2
-97,Toyota HiAce Commuter,2027,-21.3
-98,Haval H2,1988,116.6
-99,Ford Escape,1971,-40.7
-100,Lexus RX,1879,-0.2
+Ranking,Model,Sales,Variance %,brand,model
+1,Toyota HiLux,"45,176",-5.2,Toyota,Hilux
+2,Ford Ranger,"40,973",0,Ford,Ranger
+3,Toyota RAV4,"38,357",58.8,Toyota,RAV4
+4,Toyota Corolla,"25,882",-15.1,Toyota,Corolla
+5,Mazda CX-5,"21,979",-13.9,Mazda,CX-5
+6,Hyundai i30,"20,734",-26.9,Hyundai,i30
+7,Mitsubishi Triton,"18,136",-29.8,Mitsubishi,Triton
+8,Toyota Prado,"18,034",-1.6,Toyota,Prado
+9,Kia Cerato,"17,559",-19.3,Kia,Cerato
+10,Hyundai Tucson,"15,789",-13.5,Hyundai,Tucson
+11,Toyota LandCruiser wagon,"15,078",9.2,Toyota,LandCruiser wagon
+12,Isuzu D-Max,"15,062",-10.8,Isuzu,D-Max
+13,Mazda 3,"14,663",-41.2,Mazda,"""3"""
+14,Nissan X-Trail,"14,291",-27.6,Nissan,X-Trail
+15,Mitsubishi ASX,"14,056",-32.4,Mitsubishi,ASX
+16,Mazda CX-3,"13,953",-5.8,Mazda,CX-3
+17,Toyota Camry,"13,727",-18.1,Toyota,Camry
+18,Hyundai Kona,"12,514",-6.2,Hyundai,Kona
+19,Subaru Forester,"12,300",-18.5,Subaru,Forester
+20,Mitsubishi Outlander,"12,004",-31.5,Mitsubishi,Outlander
+21,Nissan Navara,"11,486",-14.4,Nissan,Navara
+22,Toyota LandCruiser 70 Series,"10,064",9.1,Toyota,LandCruiser 70 Series
+23,Volkswagen Golf,"10,012",-30.3,Volkswagen,Golf
+24,Kia Seltos,9966,386.6,Kia,Seltos
+25,Mazda BT-50,9588,-15.6,Mazda,BT-50
+26,Kia Sportage,9579,-29.8,Kia,Sportage
+27,Honda CR-V,9523,-31,Honda,CR-V
+28,Mazda CX-30,8998,N/A,Mazda,CX-30
+29,Toyota C-HR,8500,-9.4,Toyota,C-HR
+30,Toyota Kluger,8403,-26.1,Toyota,Kluger
+31,Toyota HiAce,8391,37,Toyota,HiAce
+32,Honda HR-V,8181,-30.3,Honda,HR-V
+33,Subaru XV,7946,-21,Subaru,XV
+34,Holden Colorado,7559,-56.7,Holden,Colorado
+35,Honda Civic,7194,-31.7,Honda,Civic
+37,Nissan Qashqai,7057,-39.4,Nissan,Qashqai
+38,Isuzu MU-X,7049,-16.3,Isuzu,MU-X
+39,Mazda CX-9,6747,-5.9,Mazda,CX-9
+40,Volkswagen Amarok,6349,-24.2,Volkswagen,Amarok
+41,Mercedes-Benz A-Class,6054,29.1,Mercedes-Benz,A-Class
+42,Mitsubishi Pajero Sport,6017,-7.1,Mitsubishi,Pajero Sport
+43,Ford Everest,5996,12.4,Ford,Everest
+44,Volkswagen Tiguan,5611,-27.6,Volkswagen,Tiguan
+45,LDV T60,5581,58.1,LDV,T60
+46,MG ZS,5494,47.3,MG,ZS
+47,Toyota Yaris,5027,-49,Toyota,Yaris
+48,Kia Rio,4952,-21,Kia,Rio
+49,Subaru Outback,4928,-33,Subaru,Outback
+50,Hyundai Santa Fe,4615,-21.2,Hyundai,Santa Fe
+51,Kia Sorento,4547,20.4,Kia,Sorento
+52,Mitsubishi Eclipse Cross,4517,-35.5,Mitsubishi,Eclipse Cross
+53,Mercedes-Benz GLC wagon,4470,-22.5,Mercedes-Benz,GLC wagon
+54,Suzuki Vitara,4386,-16.5,Suzuki,Vitara
+55,BMW X3,4360,-4.9,BMW,X3
+56,Suzuki Swift,4332,-35.1,Suzuki,Swift
+57,Audi Q3,4090,441.7,Audi,Q3
+58,Hyundai iLoad,3939,0,Hyundai,iLoad
+59,Kia Picanto,3891,-25.7,Kia,Picanto
+60,Mazda 2,3790,-53.8,Mazda,"""2"""
+61,Mazda CX-8,3738,46.5,Mazda,CX-8
+62,Hyundai Venue,3678,195.4,Hyundai,Venue
+63,Kia Carnival,3650,-43.8,Kia,Carnival
+64,Volkswagen Polo,3602,-37.1,Volkswagen,Polo
+65,Volkswagen Tiguan Allspace,3537,-24.2,Volkswagen,Tiguan Allspace
+66,Lexus NX,3518,1.4,Lexus,NX
+67,BMW 3 Series,3406,8.6,BMW,3 Series
+68,Subaru Impreza,3390,-25,Subaru,Impreza
+69,Mercedes-Benz C-Class,3378,-50.3,Mercedes-Benz,C-Class
+70,Suzuki Baleno,3326,46.1,Suzuki,Baleno
+71,Ram 1500,3299,26.4,Ram,"""1500"""
+72,Volvo XC40,3229,13,Volvo,XC40
+73,Mercedes-Benz GLA,3173,23.8,Mercedes-Benz,GLA
+74,BMW X1,3060,7.5,BMW,X1
+75,Audi Q5,2992,-27.9,Audi,Q5
+76,BMW X5,2956,-15.5,BMW,X5
+77,Ford Mustang,2923,-26,Ford,Mustang
+78,Toyota Fortuner,2883,-4.9,Toyota,Fortuner
+79,Jeep Grand Cherokee,2870,-3.9,Jeep,Grand Cherokee
+80,Volvo XC60,2858,-16.1,Volvo,XC60
+81,Mercedes-Benz GLE wagon,2854,37.1,Mercedes-Benz,GLE wagon
+82,Nissan Patrol,2820,44.5,Nissan,Patrol
+83,Audi A3,2778,-17.4,Audi,A3
+84,Honda Jazz,2692,-48.9,Honda,Jazz
+85,Volkswagen T-Cross,2646,N/A,Volkswagen,T-Cross
+86,MG HS,2600,2385.3,MG,HS
+87,Renault Koleos,2408,-4.9,Renault,Koleos
+88,Mitsubishi Pajero,2399,-15.7,Mitsubishi,Pajero
+89,Mercedes-Benz X-Class,2386,12.2,Mercedes-Benz,X-Class
+90,Ford Transit Custom,2379,14.9,Ford,Transit Custom
+91,Suzuki Jimny,2368,70.2,Suzuki,Jimny
+92,Holden Trax,2314,-51.9,Holden,Trax
+93,BMW 1 Series,2309,1.8,BMW,1 Series
+94,Porsche Macan,2158,7.4,Porsche,Macan
+95,Skoda Octavia,2111,16.4,Skoda,Octavia
+96,Mercedes-Benz CLA,2082,46.2,Mercedes-Benz,CLA
+97,Toyota HiAce Commuter,2027,-21.3,Toyota,HiAce Commuter
+98,Haval H2,1988,116.6,Haval,H2
+99,Ford Escape,1971,-40.7,Ford,Escape
+100,Lexus RX,1879,-0.2,Lexus,RX
