@@ -19,60 +19,82 @@
  <!-- CSS file -->
  <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
   
+  
+ 
 
 <!-- pure grid group -->
 <body>
-<div class="page1">
   <div class="page">
+    
+    <div class="page1">
+      
   <div class = "green">
   <div class = "pure-g">
     <div class = "pure-u-1-1">
-        <h1 style="color: #3A3A3A">Road Safety and Financial Cost in Victoria: Decade Overview</h1>
+        <h1><center>Road Safety and Financial Cost in Victoria: Overview of the Decade</center></h1>
       </div>
     </div>
   </div>
-  
-  <div class="pure-g">
-    <div class="pure-u-1-1">
-    <h1>Road Safety</h1>
+      
+   <div class="pure-g">
+     <div class="pure-u-1-1">
+        <h2 ><center>With the Victoria road being filled with various types of cars driven by people across an interval of ages, <br> 
+             road safety and the financial costs had been one of the biggest reasons why some Victorians are choosing not to drive.In this visualisation, 
+          we explore whether such concerns had persisted through time...  </center></h2>
+      </div>
   </div>
-  </div>
+    </div>
+    
+    <div class="page2">
+      <div class="pure-g">
+        <div class="pure-u-1-1">
+          <h1>Road Safeties</h1>
+        </div>
+       </div>
   <!-- end pure grid group -->
   
   <!-- pure grid group -->
   <div class="pure-g">
 
-    <div class="pure-u-1-3">
-      <div class="description description-left">
-        <h2>Introduction</h2>
-        <p>text</p>
-      </div>
-    </div>
-    
-    <div class = "pure-u-2-3">
+     <div class = "pure-u-2-3">
       <h2>
         Accident Count by Age & Sex (2006 - 2020)
       </h2>
       <div id = "vis1" class = "vis-container"></div>
     </div>
     
+    <div class="pure-u-1-3">
+      <div class="description description-right">
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>The car accident trend shows an overwhelming evidence that <b>male are much more likely to be in accident than female.</b></center>
+       <br>
+        <center>Age wise, the result indicates that <span class="yellow">L-platers</span> are far less likely to be in an
+          accident than <span class="red">P-platers</span>, this may be due to the fact of despite having more experience on the road,
+        lack of <b>supervision by an experienced driver</b> leads to mistakes on the road.</center>
+      </div>
+    </div>
   </div>
   <!-- end pure grid group -->
   
   <!-- pure grid group -->
   <div class="pure-g">
     
-    <div class = "pure-u-2-3">
+    <div class = "pure-u-1-1">
       <h2>
         Crash Frequency (Nov'20 - Oct'21)
       </h2>
-      <div id = "vis1" class = "vis-container"></div>
+      <div id = "vis2" class = "vis-container"></div>
     </div>
     
-    <div class="pure-u-1-3">
-      <div class="description description-right">
-        <h2>test</h2>
-        <p>container 1</p>
+    <div class="pure-u-1-1">
+      <div class="description description-left">
+        <center>As a result of the restrictions imposed by the Victorian Government in response to the Covid-19 pandemic, traffic volume<br>
+          has <b>decreased staggeringly</b> due to people that usually drive to their workplace finding themselves working from from. This <br>
+        inevitably reduced the amount of vehicles flowing around in both metropolitan and regional areas.</center>
+
       </div>
     </div>
     
@@ -83,9 +105,9 @@
   <div class="pure-g">
     <div class = "pure-u-2-3">
       <h2>
-        Top selling manufacture
+        Accident Volume by Manufacture
       </h2>
-      <div id = "vis1" class = "vis-container"></div>
+      <div id = "vis3" class = "vis-container"></div>
     </div>
     
     <div class="pure-u-1-3">
@@ -94,7 +116,6 @@
         <p>container 2</p>
       </div>
     </div>
-    
   </div>
   <!-- end pure grid group -->
   
@@ -102,7 +123,7 @@
   <div class="pure-g">
     <div class = "pure-u-2-3">
       <h2>
-        Accident by Manufacture
+        New Car Sales Volume by Manufacture
       </h2>
       <div id = "vis1" class = "vis-container"></div>
     </div>
@@ -114,6 +135,28 @@
       </div>
     </div>
   </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <div class ="page1"
   <!-- end pure grid group -->
     <div class="pure-g">
       <div class="pure-u-2-3">
@@ -196,15 +239,33 @@
   </div>
   <!-- end pure grid group -->
   </div>
-</div>
   <!---END PURE GRID PAGE-->
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 <script type="text/javascript">
-  var specVis1 = "js_hw/choropleth_map.vg.json";
+  var specVis1 = "js/accident_by_ageandsex2.json"
   vegaEmbed('#vis1', specVis1);
 
-  var specVis2 = "js_hw/carsales_interactive2.vg.json";
+  var specVis2 = "js/crash_year_2020.json";
   vegaEmbed('#vis2', specVis2);
+  
+    var specVis3 = "js/common_manu_accident_V2.json";
+  vegaEmbed('#vis3', specVis2);
 </script>
 
 </body>
