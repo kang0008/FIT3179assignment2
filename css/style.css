@@ -1,0 +1,58 @@
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1 {
+  font-family: 'Pridi', serif;
+  }
+  
+  .green {
+    background-color: green;
+    background-image: linear-gradient(to right, lightgreen, green);
+  }
+
+  .page1{
+       width: 700px;    
+       background-color: white;   
+       margin: auto;
+       padding: 50px;
+       padding-top: 35px;
+    }
+  
+     .page{
+       width: 2000px;    
+       background-color: silver;   
+       margin: auto;
+       padding: 50px;
+       padding-top: 35px;
+    }
+    .vis-container{
+      width: 90%;
+    }
+    .description h2, h1{
+      margin-top:0px;
+    }
+    .description-right {
+      padding-left: 20px;
+    }
+    .description-left{
+      padding-right: 20px;
+    }
+    .pure-g{
+      margin-bottom: 25px;
+    }
+    .small-font{
+        font-size: 14px;
+    }
+  
+  .hr3 {
+      border: 0;
+      height: 2px;
+      background-image: linear-gradient(to right, transparent, #DDD, transparent);
+      padding-top: 5px;
+  }
+  
+  p.ex1 {
+      padding-right: 800px;
+    }
+}
