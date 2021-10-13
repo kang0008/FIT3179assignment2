@@ -1,7 +1,13 @@
 h2 {
   font-family: 'Montserrat', sans-serif;
   }
-  
+
+.yellow {
+  color: #FFFF00
+}
+.red{
+  color: red
+}
   h1 {
   font-family: 'Pridi', serif;
   }
@@ -11,17 +17,17 @@ h2 {
     background-image: linear-gradient(to right, lightgreen, green);
   }
 
-  .page1{
-       width: 700px;    
+  .page1{    
        background-color: white;   
        margin: auto;
-       padding: 50px;
-       padding-top: 35px;
     }
-  
+  .page2{    
+       background-color: darkgrey;   
+       margin: auto;
+    }
      .page{
-       width: 2000px;    
-       background-color: silver;   
+       width: 1800px;    
+       background-color: ;   
        margin: auto;
        padding: 50px;
        padding-top: 35px;
@@ -33,9 +39,11 @@ h2 {
       margin-top:0px;
     }
     .description-right {
+      padding-top: 20px
       padding-left: 20px;
     }
     .description-left{
+      padding-top: 20px
       padding-right: 20px;
     }
     .pure-g{
