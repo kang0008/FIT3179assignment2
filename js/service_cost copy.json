@@ -1,0 +1,19 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Service Fee - Manufacture",
+    "data": {"url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/service_cost_manufacture.csv"},
+    "mark": {
+      "type": "boxplot",
+      "extent": "min-max"
+    },
+    "encoding": {
+      "x": {"field": "Species", "type": "nominal"},
+      "color": {"field": "Species", "type": "nominal", "legend": null},
+      "y": {
+        "field": "Body Mass (g)",
+        "type": "quantitative",
+        "scale": {"zero": false}
+      }
+    }
+  }
+  

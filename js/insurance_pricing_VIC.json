@@ -1,0 +1,82 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Average Insurance Pricing in Victoria by Region",
+  "width": 800,
+  "height": 600,
+  "projection": {
+      "type": "equirectangular",
+      "center": { "expr": "center_to" },
+      "scale": { "expr": "zoom_level" }
+  },
+  "params": [
+      {
+          "name": "zoom_level",
+          "value": 4300,
+          "bind": {
+              "input": "range",
+              "min": 3500,
+              "max": 60000,
+              "step": 100,
+              "name": "Zoom: "
+          }
+      },
+      {
+          "name": "center_to",
+          "value": [144.9, -36.7],
+          "bind": {
+              "input": "select",
+              "options": [
+                  [145, -37.95],
+                  [144.9, -36.7]
+              ],
+              "labels": ["Melbourne CBD", "Victoria Overview"],
+              "name": "Map Centre: "
+          }
+      }
+  ],
+  "data": {
+    "url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/SA4_2021_AUST_GDA2020.json",
+    "format": {
+          "type": "topojson",
+          "feature": "SA4_2021_AUST_GDA2020"
+        }
+  },
+  "transform": [{
+      "lookup": "properties.SA4_CODE21",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/insurance_pricing_by_location_VIC.csv"
+        },
+        "key": "SA4 code",
+        "fields": ["Average Premium", "Name"]
+      }
+    }
+  ],
+  "projection": {
+    "type": "equirectangular",
+    "center": {"expr": "center_to"},
+  "scale": {"expr": "zoom_level"}
+  },
+  "mark": {
+    "type": "geoshape"
+    },
+  "encoding": {
+    "color": {
+      "field": "Average Premium",
+      "type": "quantitative",
+      "scale": {
+          "type": "threshold",
+          "range":["#ffffcc",
+              "#c2e699",
+              "#78c679",
+              "#31a354",
+              "#006837"],
+          "domain": [750,900,1000,1100]
+      }
+    },
+    "tooltip": [
+      {"field": "Name", "type":"nominal"},
+      {"field": "Average Premium", "type":"quantitative"}
+    ]
+  }
+}

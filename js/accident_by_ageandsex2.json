@@ -1,0 +1,49 @@
+{
+
+  "data": {"url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/accident_year_by_sex_age3.json"},
+  "layer":[{
+      "transform":[
+          {"calculate": "datum.sex == 1 ? 'Female' : 'Male'", "as": "gender"},
+          {"filter":"datum.age<76"}],
+  "params": [{
+      "name": "brush",
+      "select": {"type": "interval", "encodings": ["x"]}
+    }],
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "age","type":"ordinal"},
+    "y": {
+      "field": "count",
+      "type":"quantitative",
+      "title": "count"
+    },
+    "color":{
+        "field":"gender","type":"ordinal",
+        "scale": {"range":["#675193", "#ca8861"]}
+    },
+    "tooltip":[
+        {"field": "count", "type":"quantitative"},
+        {"field": "gender", "type":"nominal"}
+    ],
+    "opacity": {
+        "condition": {
+          "param": "brush", "value": 1
+        },
+        "value": 0.7
+      }}
+      },{
+      "transform": [{
+      "filter": {"param": "brush"}
+    }],
+    "mark": "rule",
+    "encoding": {
+      "y": {
+        "aggregate": "mean",
+        "field": "count",
+        "type": "quantitative"
+      },
+      "color": {"value": "firebrick"},
+      "size": {"value": 3}
+    }
+  }]
+}

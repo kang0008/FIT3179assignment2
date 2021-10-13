@@ -1,0 +1,104 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+     "title": "Maintenance Cost by Manufacture",
+    "data": {
+      "values": [
+          {
+            "manufacture": "Toyota",
+            "service_cost": "$140",
+            "lower": "280",
+            "upper": "720"
+          },
+          {
+            "manufacture": "Mazda",
+            "service_cost": "$342",
+            "lower": "296",
+            "upper": "387"
+          },
+          {
+            "manufacture": "Holden",
+            "service_cost": "$269",
+            "lower": "239",
+            "upper": "299"
+          },
+          {
+            "manufacture": "Hyundai",
+            "service_cost": "$345",
+            "lower": "189",
+            "upper": "500"
+          },
+          {
+            "manufacture": "Mitsubishi",
+            "service_cost": "$415",
+            "lower": "230",
+            "upper": "600"
+          },
+          {
+            "manufacture": "Ford",
+            "service_cost": "$310",
+            "lower": "255",
+            "upper": "365"
+          },
+          {
+            "manufacture": "Nissan",
+            "service_cost": "$390",
+            "lower": "262",
+            "upper": "517"
+          },
+          {
+            "manufacture": "Volkswagen",
+            "service_cost": "$405",
+            "lower": "405",
+            "upper": "405"
+          },
+          {
+            "manufacture": "Subaru",
+            "service_cost": "$414",
+            "lower": "299",
+            "upper": "528"
+          },
+          {
+            "manufacture": "Honda",
+            "service_cost": "$278",
+            "lower": "259",
+            "upper": "297"
+          }
+         ]
+    },
+      "layer": [
+      {
+    "mark": {"type":"point","filled": true},
+    "encoding": {
+      "x": {"field": "lower", "type": "quantitative","title":"Lower Cost"},
+      "y": {"field": "upper", "type": "quantitative","title":"Upper Cost"},
+      "tooltip": [
+        {"field": "manufacture", "type": "nominal"},
+        {"field": "lower", "type": "quantitative"},
+        {"field": "upper", "type": "quantitative"}
+      ],
+      "color": {"field":"manufacture", "type":"nominal"}
+      
+        }
+      },
+      {
+        "mark": {"type": "rule", "color": "red"},
+        "encoding": {
+          "x": {
+            "aggregate": "average",
+            "field": "lower",
+            "type": "quantitative"
+          }
+        }
+      },
+      {
+              "mark": {"type": "rule", "color": "red"},
+        "encoding": {
+          "y": {
+            "aggregate": "average",
+            "field": "upper",
+            "type": "quantitative"
+          }
+      }
+      }
+    ]
+  }

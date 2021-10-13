@@ -1,0 +1,27 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/top_selling_models2020.csv"},
+    "title": "Top First-Hand Car Sales by Manufactures in 2021",
+    "transform":[
+        {"filter": {
+            "field": "brand", 
+            "oneOf": ["Toyota","Mazda","Mitsubishi","Hyundai","Ford","Mitsubishi","Nissan","Isuzu","Volkswagen","BMW","Audi","Holden","Mercedes-Benz"]}
+        }],
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "brand",
+        "type": "nominal",
+        "title": null,
+        "sort": ["Audi","Holden","BMW","Isuzu","Mercedes-Benz","Volkswagen","Nissan","Ford","Mitsubishi","Hyundai","Mazda","Toyota"]
+      },
+      "y": {
+        "aggregate": "sum",
+        "field": "Sales",
+        "type": "quantitative",
+        "sort":"ascending",
+        "title":null
+      }      
+    }
+  }
+  

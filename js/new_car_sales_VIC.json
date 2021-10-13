@@ -1,0 +1,12 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "New car sales over time.",
+  "title": "New Car Sales in Australia",
+  "data": {"url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/years%20of%20accident%20and%20make%20of%20vehicle%20in%20accident1.json"},
+
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "A", "type":"temporal"},
+    "y": {"field": "B", "type": "quantitative"}
+  }
+}
