@@ -18,16 +18,16 @@ h2 {
   }
 
   .page1{    
-       background-color: ;   
+       background-color: white;   
        margin: auto;
     }
   .page2{    
-       background-color: ;   
+       background-color: white;   
        margin: auto;
     }
      .page{
-       background-color:;
-       width: 1300px;    
+       width: 80%;    
+       background-color: ;   
        margin: auto;
        padding: 50px;
        padding-top: 35px;
