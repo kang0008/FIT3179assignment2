@@ -17,7 +17,8 @@
         "field":"MANUFACTURE",
         "type":"nominal"
       },
-      "value": "grey"
+      "value": "grey",
+      "legend": null
     },
     "opacity": {
       "condition": {
