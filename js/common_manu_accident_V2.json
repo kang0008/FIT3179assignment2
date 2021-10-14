@@ -60,7 +60,7 @@
   }],
   "config": {"view": {"stroke": null}}
 },{
-  "width":480,
+  "width":"container",
   "height":160,
     "transform": [
     {"filter":  "datum.MANUFACTURE=='ALL'"}],
