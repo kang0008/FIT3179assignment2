@@ -1,7 +1,7 @@
 
   {"data": {"url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/accident_make_yearV3.csv"},
   "vconcat":[{
-    "width":480,
+    "width":"container",
     "height":320,
       "transform": [
     {"filter":  "datum.MANUFACTURE!=='ALL'"},
