@@ -12,6 +12,19 @@ h2 {
   font-family: 'Pridi', serif;
   }
   
+
+  body {
+    background-color: lightgray;
+}
+
+.page {
+    width: 850px;
+    background-color: white;
+    margin: auto;
+    padding: 50px;
+    padding-top: 35px;
+}
+
   .green {
     text-align: center;
     background-color: green;
@@ -29,13 +42,7 @@ h2 {
        background-color: white;   
        margin: auto;
     }
-     .page{
-       width: 950px;    
-       background-color:;   
-       margin: auto;
-       padding: 50px;
-       padding-top: 35px;
-    }
+
     .vis-container{
       width: 90%;
     }
