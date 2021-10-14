@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width":250,
+    "width":"container",
     "title": "Car Types by Fuel",
     "data": {
       "url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/fueltype_VIC.json"},

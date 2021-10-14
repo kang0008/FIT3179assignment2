@@ -1,6 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {"url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/top_selling_models2020.csv"},
+  "width":"container",
   "title": "Top First-Hand Car Sales by Manufactures in 2021",
   "transform":[
       {"filter": {
