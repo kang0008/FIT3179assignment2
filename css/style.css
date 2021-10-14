@@ -13,10 +13,14 @@ h2 {
   }
   
   .green {
+    text-align: center;
     background-color: green;
     background-image: linear-gradient(to right, lightgreen, green);
   }
-
+  .silver {
+    text-align: center;
+    background-color: lightgrey;
+  }
   .page1{    
        background-color: white;   
        margin: auto;
