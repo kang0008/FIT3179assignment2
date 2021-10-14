@@ -26,24 +26,25 @@
 <body>
   <div class="page">
     
-    <div class="page1">
-      
-  <div class = "green">
-  <div class = "pure-g">
-    <div class = "pure-u-1-1">
-        <h1><center>Road Safety and Financial Cost in Victoria: Overview of the Decade</center></h1>
+    
+    <div class="page1">  
+      <div class = "green">
+        <div class = "pure-g">
+          <div class = "pure-u-1-1">
+          <h1><center>Road Safety and Financial Cost in Victoria: Overview of the Decade</center></h1>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
       
-   <div class="pure-g">
-     <div class="pure-u-1-1">
-        <h2 ><center>With the Victoria road being filled with various types of cars driven by people across an interval of ages, <br> 
+     <div class="pure-g">
+       <div class="pure-u-1-1">
+          <h2 ><center>With the Victoria road being filled with various types of cars driven by people across an interval of ages, <br> 
              road safety and the financial costs had been one of the biggest reasons why some Victorians are choosing not to drive.In this visualisation, 
           we explore whether such concerns had persisted through time...  </center></h2>
+        </div>
       </div>
-  </div>
     </div>
+    
     
     <div class="page2">
       <div class="pure-g">
@@ -54,16 +55,16 @@
   <!-- end pure grid group -->
   
   <!-- pure grid group -->
-  <div class="pure-g">
-
-     <div class = "pure-u-2-3">
-      <h2>
-        Accident Count by Age & Sex (2006 - 2020)
-      </h2>
+      <div class="pure-g">
+       <div class = "pure-u-1-1">
+        <h2>
+          Accident Count by Age & Sex (2006 - 2020)
+        </h2>
+      
       <div id = "vis1" class = "vis-container"></div>
     </div>
     
-    <div class="pure-u-1-3">
+    <div class="pure-u-1-1">
       <div class="description description-right">
         <br>
         <br>
@@ -127,7 +128,7 @@
       <h2>
         New Car Sales Volume by Manufacture
       </h2>
-      <div id = "vis1" class = "vis-container"></div>
+      <div id = "vis4" class = "vis-container"></div>
     </div>
     
     <div class="pure-u-1-3">
@@ -165,26 +166,18 @@
     </div>
   </div>
 
-
-    <div class="pure-g">
-      <div class="pure-u-1-1">
-        <div class="p.ex1"></div>
-          <div id="vis2"  class="vis-container"></div>
-        </div>
-    </div>
-
-
   <!-- pure grid group -->
   <div class="pure-g">
     <div class="pure-u-1-3">
         <h2>Average Insurance Price by Age</h2>
-        <p>container 1</p>
+        <div id = "vis5" class = "vis-container"></div>
+        
 
     </div>
 
     <div class="pure-u-2-3">
         <h2>Average Cars per Household (2016)</h2>
-        <p>container 2</p>
+        <div id = "vis6" class = "vis-container"></div>
     </div>
   </div>
   <!-- end pure grid group -->
@@ -194,7 +187,7 @@
     
     <div class="pure-u-1-3">
         <h2>Insurance Price by LGA</h2>
-      <p>container 2</p>
+        <div id = "vis7" class = "vis-container"></div>
     </div>
     
     <div class="pure-u-2-3">
@@ -218,7 +211,7 @@
     <div class="pure-u-1-3">
       <div class="description description-left">
         <h2>test 2</h2>
-        <p>container 3</p>
+        <div id = "vis7" class = "vis-container"></div>
       </div>
     </div>
   </div>
@@ -226,16 +219,40 @@
     
   <!-- pure grid group -->
   <div class="pure-g">
-    <div class="pure-u-1-3">
+    <div class="pure-u-1-1">
       <div class="description description-left">
-        <h2>test 2</h2>
-        <p>container 4</p>
+        <div id = "vis8" class = "vis-container"></div>
       </div>
     </div>
-    <div class="pure-u-1-3">
-      <div class="description description-right">
-        <h2></h2>
+  </div>
+  <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div class="description description-left">
+          <div id = "vis9" class = "vis-container"></div>
         </div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+      <!-- pure grid group -->
+  <div class="pure-g">
+    <div class="pure-u-1-1">
+      <div class="description description-left">
+        <div id = "vis10" class = "vis-container"></div>
+      </div>
+    </div>
+  </div>
+  <!-- end pure grid group -->
+
+  <!-- pure grid group -->
+  <div class="pure-g">
+    <div class="pure-u-1-1">
+      <div class="description description-left">
+        <div id = "vis11" class = "vis-container"></div>
+      </div>
     </div>
   </div>
   <!-- end pure grid group -->
@@ -270,6 +287,27 @@
   
   var specVis4 = "js/top_selling_passenger_brand.json";
   vegaEmbed('#vis4', specVis4);
+
+  var specVis5 = "js/age_insurance_avg_price.json";
+  vegaEmbed('#vis5', specVis5);
+
+  var specVis6 = "js/choropleth_map.vg.json";
+  vegaEmbed('#vis6', specVis6);
+
+  var specVis7 = "js/insurance_pricing_VIC.json";
+  vegaEmbed('#vis7', specVis7);
+
+  var specVis8 = "js/vehicleage_insurance_avg_price.json";
+  vegaEmbed('#vis8', specVis8);
+
+  var specVis9 = "js/carsales_interactive2.vg.json";
+  vegaEmbed('#vis9', specVis9);
+
+  var specVis10 = "js/fueltype.json";
+  vegaEmbed('#vis10', specVis10);
+
+  var specVis11 = "service_cost.json";
+  vegaEmbed('#vis11', specVis11);
 </script>
 
 </body>
