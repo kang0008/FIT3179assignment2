@@ -15,13 +15,13 @@
       }],
   "mark": {"type":"bar"},
   "encoding": {
-    "x": {
+    "y": {
       "field": "brand",
       "type": "nominal",
       "title": null,
-      "sort": "-y"
+      "sort": "-x"
     },
-    "y": {
+    "x": {
       "aggregate": "sum",
       "field": "Sales",
       "type": "quantitative",
@@ -30,7 +30,7 @@
     },
     "color":{
       "field":"chasis",
-      "stroke":false
+      "scale": {"scheme": "tableau10"}
     },
     "opacity": {
       "condition": {"param": "industry", "value": 1},
