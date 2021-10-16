@@ -13,7 +13,7 @@
           "field": "brand", 
           "oneOf": ["Toyota","Mazda","Mitsubishi","Hyundai","Ford","Mitsubishi","Nissan","Isuzu","Volkswagen","BMW","Audi","Holden","Mercedes-Benz"]}
       }],
-  "mark": {"type":"bar","stroke":"black"},
+  "mark": {"type":"bar"},
   "encoding": {
     "x": {
       "field": "brand",
@@ -29,7 +29,8 @@
       "title":null
     },
     "color":{
-      "field":"chasis"
+      "field":"chasis",
+      "stroke":false
     },
     "opacity": {
       "condition": {"param": "industry", "value": 1},
