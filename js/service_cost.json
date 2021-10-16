@@ -8,61 +8,71 @@
           "manufacture": "Toyota",
           "service_cost": "$140",
           "lower": "280",
-          "upper": "720"
+          "upper": "720",
+          "country": "Japan"
         },
         {
           "manufacture": "Mazda",
           "service_cost": "$342",
           "lower": "296",
-          "upper": "387"
+          "upper": "387",
+          "country": "Japan"
         },
         {
           "manufacture": "Holden",
           "service_cost": "$269",
           "lower": "239",
-          "upper": "299"
+          "upper": "299",
+          "country": "Australia"
         },
         {
           "manufacture": "Hyundai",
           "service_cost": "$345",
           "lower": "189",
-          "upper": "500"
+          "upper": "500",
+          "country": "Korea"
         },
         {
           "manufacture": "Mitsubishi",
           "service_cost": "$415",
           "lower": "230",
-          "upper": "600"
+          "upper": "600",
+          "country": "Japan"
         },
         {
           "manufacture": "Ford",
           "service_cost": "$310",
           "lower": "255",
-          "upper": "365"
+          "upper": "365",
+          "country": "USA"
         },
         {
           "manufacture": "Nissan",
           "service_cost": "$390",
           "lower": "262",
-          "upper": "517"
+          "upper": "517",
+          "country": "Japan"
         },
         {
           "manufacture": "Volkswagen",
           "service_cost": "$405",
           "lower": "405",
-          "upper": "405"
+          "upper": "405",
+          "country": "Germany"
         },
         {
           "manufacture": "Subaru",
           "service_cost": "$414",
           "lower": "299",
-          "upper": "528"
+          "upper": "528",
+          "country": "Japan"
         },
         {
           "manufacture": "Honda",
           "service_cost": "$278",
           "lower": "259",
-          "upper": "297"
+          "upper": "297",
+          "country": "Japan"
         }
        ]
   },
@@ -79,7 +89,7 @@
       {"field": "upper", "type": "quantitative"},
       {"field": "lower", "type": "quantitative"}
     ],
-    "color": {"field":"manufacture", "type":"nominal"}
+    "color": {"field":"country", "type":"nominal","legend":null}
     
       }
     },

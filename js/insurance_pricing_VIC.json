@@ -58,8 +58,8 @@
   "scale": {"expr": "zoom_level"}
   },
   "mark": {
-    "type": "geoshape"
-    },
+    "type": "geoshape",
+    "stroke":"darkgrey"},
   "encoding": {
     "color": {
       "field": "Average Premium",
