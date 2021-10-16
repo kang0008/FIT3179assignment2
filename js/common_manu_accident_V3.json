@@ -12,7 +12,7 @@
   }],
 
   "encoding":{
-        "x": {"field": "YEAR", "type": "temporal", "title": "date"},
+        "x": {"field": "YEAR", "type": "temporal", "title": null},
     "y": {"field": "Count", "type": "quantitative", "title": "Crash in VIC"},
           "tooltip":[
           {"field": "MANUFACTURE", "type":"nominal"},
@@ -23,7 +23,7 @@
   },
   {
     "width":"container",
-    "height":400,
+    "height":350,
       "transform": [
     {"filter":  "datum.MANUFACTURE!=='ALL'"},
     {"filter":  "datum.MANUFACTURE!=='SUBARU'"},
@@ -36,16 +36,16 @@
     {"filter":  "datum.MANUFACTURE!=='HONDA '"}],
   "encoding": {
     "x": {"field": "YEAR", "type": "temporal", "title": null,"scale": {"domain": {"param": "brush"}}},
-    "y": {"field": "Count", "type": "quantitative", "title": "Crash by US and European Manufactures in VIC"},
+    "y": {"field": "Count", "type": "quantitative", "title": "Crash by US and European Manufactures in VIC","scale":{"domainMax":12000}},
     "color": {
       "condition": {
         "param": "hover",
         "field":"MANUFACTURE",
         "type":"nominal",
-        "legend":null
+        "legend":null,
+        "scale": {"scheme": "category20"}
       },
       "value": "grey"
-      
     },
     "order": {"field": "siteOrder"},
     "opacity": {
@@ -93,14 +93,14 @@
 
 {
     "width":"container",
-    "height":400,
+    "height":350,
       "transform": [
     {"filter":  "datum.MANUFACTURE!=='ALL'"},
     {"filter":  "datum.MANUFACTURE!=='FORD  '"},
     {"filter":  "datum.MANUFACTURE!=='VOLKSWAGON'"},
     {"filter":  "datum.MANUFACTURE!=='B M W '"}],
   "encoding": {
-    "x": {"field": "YEAR", "type": "temporal", "title": null,"scale": {"domain": {"param": "brush"}}},
+    "x": {"field": "YEAR", "type": "temporal", "title": null,"scale": {"domain": {"param": "brush"}},"rangeMax":12000},
     "y": {"field": "Count", "type": "quantitative", "title": "Crash by Asia-Pacific Manufactures in VIC"},
     "color": {
       "condition": {
@@ -156,3 +156,4 @@
   "config": {"view": {"stroke": null}}
 }
 ]}
+  
