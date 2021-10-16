@@ -5,7 +5,6 @@
     "data": {
         "url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/crash_frequency.csv"
     },
-    "title": "Crash frequency of 2019-20 in Victoria",
     "config": {
         "view": {
             "strokeWidth": 0,
@@ -39,9 +38,14 @@
             "aggregate": "max",
             "type": "quantitative",
             "legend": {
+                "orient":"top",
                 "title": null
             }
-        }
+        },
+        "tooltip":[
+          {"field":"date", "timeUnit": "yearmonthdate","title":"Date"},
+          {"field":"count", "title": "Number of Crashes"}
+        ]
     }
   }
   
