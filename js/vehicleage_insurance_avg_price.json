@@ -1,15 +1,39 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Though Vega-Lite supports only one scale per axes, one can create a parallel coordinate plot by folding variables, using `joinaggregate` to normalize their values and using ticks and rules to manually create axes.",
-    "width":"container",
-    "title": "Average Insurance Cost by Vehicle Age in Australia",
-    "data": {
-      "url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/vehicle_age_avgquote.json"
-    },
-    "mark": "bar",
-    "encoding":{
-        "x":{"field":"vehicle age","type":"nominal","sort": ["<2","3-5","6-10","11-15","16>"], "title": null},
-        "y":{"field":"average_quote","type":"quantitative", "title": null}
-    }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Though Vega-Lite supports only one scale per axes, one can create a parallel coordinate plot by folding variables, using `joinaggregate` to normalize their values and using ticks and rules to manually create axes.",
+  "width":"container",
+  "height":300,
+      "transform": [
+{
+  "joinaggregate": [{
+    "op": "mean",
+    "field": "average_quote",
+    "as": "Average"
+  }]
 }
-    
+],
+  "data": {
+    "url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/vehicle_age_avgquote.json"
+  },
+  "layer": [{
+  "mark": "bar",
+  "encoding":{
+      "y":{"field":"vehicle age","type":"nominal","sort": ["< 2","3-5","6-10","11-15","16 >"], "title": null},
+      "x":{"field":"average_quote","type":"quantitative", "title": "Average Insurance Quote ($)"},
+      "tooltip": [
+        {"field": "vehicle age", "title": "Vehicle Age"},
+        {"title": "Cost of insurance ($)", "field": "average_quote"}
+      ]
+  }
+  }, {"mark": {"type": "rule", "color": "red", "size":4},
+    "encoding": {
+        "x": {
+            "aggregate":"average",
+            "field": "Average",
+            "type": "quantitative"
+        },
+        "tooltip":[
+            {"field":"Average", "title": "Overall average cost ($)"}
+        ]
+    }}]
+}
