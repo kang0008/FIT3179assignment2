@@ -63,7 +63,8 @@
             "#78c679",
             "#238443"],
         "domain": [2,2.1,2.15]
-                }
+                },
+        "legend": {"orient": "top", "title": null}
             },
     "tooltip": [
         {"field":"properties.ABB_NAME", "type":"nominal"},

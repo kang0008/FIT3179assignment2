@@ -72,7 +72,8 @@
               "#31a354",
               "#006837"],
           "domain": [750,900,1000,1100]
-      }
+      },
+      "legend": {"orient": "top", "title": null}
     },
     "tooltip": [
       {"field": "Name", "type":"nominal"},
