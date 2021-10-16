@@ -1,7 +1,7 @@
 {
 
     "data": {"url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/accident_year_by_sex_age3.json"},
-    "width":{"step":17},
+    "width": "container",
     "height":"300",
     "layer":[{
         "transform":[
