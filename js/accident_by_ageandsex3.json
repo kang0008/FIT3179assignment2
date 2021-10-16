@@ -2,7 +2,7 @@
 
     "data": {"url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/accident_year_by_sex_age3.json"},
     "width": "container",
-    "height":"600",
+    "height":450,
     "layer":[{
         "transform":[
             {"calculate": "datum.sex == 1 ? 'Female' : 'Male'", "as": "gender"}],
