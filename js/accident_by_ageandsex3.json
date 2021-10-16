@@ -20,7 +20,8 @@
       },
       "color":{
           "field":"gender","type":"ordinal",
-          "scale": {"range":["#675193", "#ca8861"]}
+          "scale": {"range":["#675193", "#ca8861"]},
+          "legend":{"orient":"top"}
       },
       "tooltip":[
           {"field": "count", "type":"quantitative"},
