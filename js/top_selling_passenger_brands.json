@@ -2,13 +2,14 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {"url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/top_selling_models2020.csv"},
   "width":"container",
+  "height":500,
   "title": "Top First-Hand Car Sales by Manufactures in 2021",
   "transform":[
       {"filter": {
           "field": "brand", 
           "oneOf": ["Toyota","Mazda","Mitsubishi","Hyundai","Ford","Mitsubishi","Nissan","Isuzu","Volkswagen","BMW","Audi","Holden","Mercedes-Benz"]}
       }],
-  "mark": "bar",
+  "mark": {"type":"bar","stroke":"black"},
   "encoding": {
     "x": {
       "field": "brand",
@@ -29,7 +30,9 @@
     "order":{"field":"chasis"},
     "tooltip":[
       {"field":"chasis", "type":"nominal"},
-      {"field":"Sales","type":"quantitative"}
+      {"field":"Sales","type":"quantitative"},
+      {"field":"model","type":"nominal"}
     ]
   }
 }
+  
