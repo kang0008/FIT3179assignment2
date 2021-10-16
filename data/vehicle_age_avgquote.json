@@ -1,22 +1,22 @@
 [
  {
-   "vehicle age": "\"<2\"",
+   "vehicle age": "< 2",
    "average_quote": 1381
  },
  {
-   "vehicle age": "\"3-5\"",
+   "vehicle age": "3-5",
    "average_quote": 1348
  },
  {
-   "vehicle age": "\"6-10\"",
+   "vehicle age": "6-10",
    "average_quote": 1156
  },
  {
-   "vehicle age": "\"11-15\"",
+   "vehicle age": "11-15",
    "average_quote": 961
  },
  {
-   "vehicle age": "\">16\"",
+   "vehicle age": "16 >",
    "average_quote": 791
  }
 ]
