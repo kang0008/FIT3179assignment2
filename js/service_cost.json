@@ -1,7 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-   "title": "Maintenance Cost by Manufacture",
-   "width":"container",
+   
   "data": {
     "values": [
         {
@@ -77,19 +76,21 @@
        ]
   },
 
+
     "layer": [
+      
     {
   "selection": {"grid": {"type": "interval", "bind": "scales"}},
   "mark": {"type":"point","filled": true},
   "encoding": {
-    "x": {"field": "lower", "type": "quantitative","title":"Lower Cost"},
-    "y": {"field": "upper", "type": "quantitative","title":"Upper Cost"},
+    "x": {"field": "lower", "type": "quantitative","title":"Lower Maintenance Cost ($)"},
+    "y": {"field": "upper", "type": "quantitative","title":"Upper Maintenance Cost ($)"},
     "tooltip": [
       {"field": "manufacture", "type": "nominal"},
       {"field": "upper", "type": "quantitative"},
       {"field": "lower", "type": "quantitative"}
     ],
-    "color": {"field":"country", "type":"nominal","legend":null}
+    "color": {"field":"country", "type":"nominal","legend": {"orient": "top"}, "title":null}
     
       }
     },
