@@ -8,7 +8,6 @@
     "select": {"type": "point", "fields": ["chasis"]},
     "bind": "legend"
   }],
-  "title": "Top First-Hand Car Sales by Manufactures in 2021",
   "transform":[
       {"filter": {
           "field": "brand", 
