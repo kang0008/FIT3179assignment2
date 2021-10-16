@@ -1,25 +1,47 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Though Vega-Lite supports only one scale per axes, one can create a parallel coordinate plot by folding variables, using `joinaggregate` to normalize their values and using ticks and rules to manually create axes.",
-    "width":"container",
-    "height":300,
-    "title": "Average Insurance by Age in Australia",
-    "data": {
-      "url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/driver_age_avgquote.json"
-    },
-    "mark": "bar",
-    "encoding":{
-        "x":{"field":"driver_age",
-          "title":null,
-          "type":"nominal",
-          "sort": ["< 20","21-24","25-29","30-39","40-49","50-59","60-69","70 >"]
-        },
-        "y":{"field":"average quote",
-          "type":"quantitative",
-        "title": null},
-        "tooltip":[
-          {"field":"average quote", "type": "quantitative"}
-        ]
-    }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Though Vega-Lite supports only one scale per axes, one can create a parallel coordinate plot by folding variables, using `joinaggregate` to normalize their values and using ticks and rules to manually create axes.",
+  "width":"container",
+  "height":300,
+    "transform": [
+  {
+    "joinaggregate": [{
+      "op": "mean",
+      "field": "average quote",
+      "as": "Average"
+    }]
+  }
+],
+  "data": {
+    "url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/driver_age_avgquote.json"
+  },
+  "layer": [{
+  "mark": "bar",
+  "encoding":{
+      "y":{"field":"driver_age",
+        "title":null,
+        "type":"nominal",
+        "sort": ["< 20","21-24","25-29","30-39","40-49","50-59","60-69","70 >"]
+        
+      },
+      "x":{"field":"average quote",
+        "type":"quantitative",
+      "title": null},
+      "tooltip":[
+        {"field":"average quote", "type": "quantitative"}
+      ]
+  }
+  },{"mark": {"type": "rule", "color": "red", "size":4},
+      "encoding": {
+          "x": {
+              "aggregate":"average",
+              "field": "Average",
+              "type": "quantitative"
+          },
+          "tooltip":[
+              {"field":"Average", "title": "Average Cost"}
+          ]
+      }}
+  ]
 }
-    
+  
