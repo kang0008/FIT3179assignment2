@@ -3,6 +3,11 @@
   "data": {"url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/top_selling_models2020.csv"},
   "width":"container",
   "height":500,
+     "params": [{
+    "name": "industry",
+    "select": {"type": "point", "fields": ["chasis"]},
+    "bind": "legend"
+  }],
   "title": "Top First-Hand Car Sales by Manufactures in 2021",
   "transform":[
       {"filter": {
@@ -27,6 +32,10 @@
     "color":{
       "field":"chasis"
     },
+    "opacity": {
+      "condition": {"param": "industry", "value": 1},
+      "value": 0.2
+    },
     "order":{"field":"chasis"},
     "tooltip":[
       {"field":"chasis", "type":"nominal"},
@@ -35,4 +44,3 @@
     ]
   }
 }
-  
