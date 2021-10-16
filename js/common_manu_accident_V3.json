@@ -1,0 +1,161 @@
+{"data": {"url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/accident_make_yearV3.csv"},
+  "title":"Crash Statistics (1980-2018)",
+  "vconcat":[{
+    "width":"container",
+    "height":400,
+      "transform": [
+    {"filter":  "datum.MANUFACTURE!=='ALL'"},
+    {"filter":  "datum.MANUFACTURE!=='SUBARU'"},
+    {"filter":  "datum.MANUFACTURE!=='TOYOTA'"},
+    {"filter":  "datum.MANUFACTURE!=='MITSUBISHI'"},
+    {"filter":  "datum.MANUFACTURE!=='MAZDA '"},
+    {"filter":  "datum.MANUFACTURE!=='NISSAN'"},
+    {"filter":  "datum.MANUFACTURE!=='HOLDEN'"},
+    {"filter":  "datum.MANUFACTURE!=='HYNDAI'"},
+    {"filter":  "datum.MANUFACTURE!=='HONDA '"}],
+  "encoding": {
+    "x": {"field": "YEAR", "type": "temporal", "title": null,"scale": {"domain": {"param": "brush"}}},
+    "y": {"field": "Count", "type": "quantitative", "title": "Cars Sold by Manufactures from US and Europe "},
+    "color": {
+      "condition": {
+        "param": "hover",
+        "field":"MANUFACTURE",
+        "type":"nominal",
+        "legend":null
+      },
+      "value": "grey"
+      
+    },
+    "order": {"field": "siteOrder"},
+    "opacity": {
+      "condition": {
+        "param": "hover",
+        "value": 1
+      },
+      "value": 0.2
+    },
+      "tooltip":[
+          {"field": "MANUFACTURE", "type":"nominal"},
+          {"field": "YEAR", "type":"temporal"},
+          {"field": "Count", "type":"quantitative"}
+      ]
+  },
+  
+  "layer": [{
+    "params": [{
+      "name": "hover",
+      "value": [{"MANUFACTURE": "HOLDEN"}],
+      "select": {
+        "type": "point",
+        "fields": ["MANUFACTURE"],
+        "on": "mouseover"
+      }
+    }],
+    "mark": {"type": "area", "strokeWidth": 8, "stroke": "transparent"}
+  }, {
+    "mark": "area"
+  }, {
+    "encoding": {
+      "x": {"aggregate": "max", "field": "YEAR"},
+      "y": {"aggregate": {"argmax": "date"}, "field": "Count"}
+    },
+    "layer": [{
+      "mark": {"type": "circle"}
+    }, {
+      "mark": {"type": "text", "align": "left", "dx": 4},
+      "encoding": {"text": {"field":"MANUFACTURE", "type": "nominal"}}
+    }]
+  }],
+  
+  "config": {"view": {"stroke": null}}
+},
+
+{
+    "width":"container",
+    "height":400,
+      "transform": [
+    {"filter":  "datum.MANUFACTURE!=='ALL'"},
+    {"filter":  "datum.MANUFACTURE!=='FORD  '"},
+    {"filter":  "datum.MANUFACTURE!=='VOLKSWAGON'"},
+    {"filter":  "datum.MANUFACTURE!=='B M W '"}],
+  "encoding": {
+    "x": {"field": "YEAR", "type": "temporal", "title": null,"scale": {"domain": {"param": "brush"}}},
+    "y": {"field": "Count", "type": "quantitative", "title": "Cars Sold by Manufactures in Asia-Pacific"},
+    "color": {
+      "condition": {
+        "param": "hover",
+        "field":"MANUFACTURE",
+        "type":"nominal",
+        "legend":null
+      },
+      "value": "grey"
+      
+    },
+    "order": {"field": "siteOrder"},
+    "opacity": {
+      "condition": {
+        "param": "hover",
+        "value": 1
+      },
+      "value": 0.2
+    },
+      "tooltip":[
+          {"field": "MANUFACTURE", "type":"nominal"},
+          {"field": "YEAR", "type":"temporal"},
+          {"field": "Count", "type":"quantitative"}
+      ]
+  },
+  
+  "layer": [{
+    "params": [{
+      "name": "hover",
+      "value": [{"MANUFACTURE": "HOLDEN"}],
+      "select": {
+        "type": "point",
+        "fields": ["MANUFACTURE"],
+        "on": "mouseover"
+      }
+    }],
+    "mark": {"type": "area", "strokeWidth": 8, "stroke": "transparent"}
+  }, {
+    "mark": "area"
+  }, {
+    "encoding": {
+      "x": {"aggregate": "max", "field": "YEAR"},
+      "y": {"aggregate": {"argmax": "date"}, "field": "Count"}
+    },
+    "layer": [{
+      "mark": {"type": "circle"}
+    }, {
+      "mark": {"type": "text", "align": "left", "dx": 4},
+      "encoding": {"text": {"field":"MANUFACTURE", "type": "nominal"}}
+    }]
+  }],
+  
+  "config": {"view": {"stroke": null}}
+},
+
+
+{
+  "width":"container",
+  "height":160,
+    "transform": [
+    {"filter":  "datum.MANUFACTURE=='ALL'"}],
+  "mark":"line",
+  "params": [{
+  "name": "brush",
+  "select": {"type": "interval", "encodings": ["x"]}
+  }],
+
+  "encoding":{
+        "x": {"field": "YEAR", "type": "temporal", "title": "date"},
+    "y": {"field": "Count", "type": "quantitative", "title": "Cars Sold Overall"},
+          "tooltip":[
+          {"field": "MANUFACTURE", "type":"nominal"},
+          {"field": "YEAR", "type":"temporal"},
+          {"field": "Count", "type":"quantitative"}
+      ]
+    }
+  }
+]}
+  
