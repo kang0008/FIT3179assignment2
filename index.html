@@ -213,7 +213,7 @@
    </div>
   <!-- end pure grid group -->
   <div class= "pure-g">  
-    <div class="pure-u-1-2">
+    <div class="pure-u-1-1">
         <div id = "vis6" class = "vis-container"></div>
     </div>
   </div>
@@ -259,6 +259,19 @@
     
   </div>
   <!-- end pure grid group -->
+  <div class= "pure-g">  
+    <div class="pure-u-1-1">
+        <h2>Service Cost interval - Manufacture</h2>
+    </div>
+  </div>
+    
+
+   
+   <div class= "pure-g"> 
+    <div class="pure-u-1-1">
+        <div id = "vis10" class = "vis-container"></div>
+    </div>
+  </div>
 
   </div>
   <!---END PURE GRID PAGE-->
@@ -276,6 +289,7 @@
   var specVis7 = "js/insurance_pricing_VIC.json";
   var specVis8 = "js/vehicleage_insurance_avg_price.json";
   var specVis9 = "js/carsales_interactive2.vg.json";
+  var specVis10 = "js/service_cost.json";
 
   vegaEmbed('#vis1', specVis1, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -310,6 +324,10 @@
   }).catch(console.error);
 
   vegaEmbed('#vis9', specVis9, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#vis10', specVis10, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
