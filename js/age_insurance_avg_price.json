@@ -26,9 +26,9 @@
       },
       "x":{"field":"average quote",
         "type":"quantitative",
-      "title": null},
+      "title": "Average Cost($)"},
       "tooltip":[
-        {"field":"average quote", "type": "quantitative"}
+        {"field":"average quote", "type": "quantitative","title":"Average cost ($)"}
       ]
   }
   },{"mark": {"type": "rule", "color": "red", "size":4},
@@ -39,9 +39,8 @@
               "type": "quantitative"
           },
           "tooltip":[
-              {"field":"Average", "title": "Average Cost"}
+              {"field":"Average", "title": "Overall average cost ($)"}
           ]
       }}
   ]
 }
-  
