@@ -1,35 +1,49 @@
-hr {
-  height: 5px;
-  background-color: black;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  }
-
-.yellow {
-  color: #FFFF00
-}
 .red{
-  color: red
+  color: red;
+}
+.yellow{
+  color: #E4CD05;
+}
+.purple{
+  color: #675193;
+}
+
+.orange{
+  color: #ca8861;
 }
   h1 {
   font-family: 'Pridi', serif;
   }
-  
+
+h2{
+  font-family: 'Kanit', sans-serif;
+  font-size: 23;
+}
+
+
+
+li {
+  font-family: 'Kanit', sans-serif;
+  font-size:19 ;
+
+}
 
   body {
     background-color: lightgray;
 }
 
+p {
+  font-family: 'Kanit', sans-serif;
+  font-size:19 ;
+}
 .page {
-    width: 850px;
+    width: 1000px;
     background-color: white;
     margin: auto;
     padding: 50px;
     padding-top: 35px;
 }
-
+  
   .green {
     text-align: center;
     background-color: green;
