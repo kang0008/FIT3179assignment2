@@ -30,7 +30,9 @@
     },
     "color":{
       "field":"chasis",
-      "scale": {"scheme": "tableau10"}
+      "scale": {"scheme": "tableau10"},
+      "legend":{"orient": "top"},
+      "title": "Chasis type"
     },
     "opacity": {
       "condition": {"param": "industry", "value": 1},
