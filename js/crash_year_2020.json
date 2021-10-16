@@ -3,7 +3,7 @@
     "width":"container",
     "height": 450,
     "data": {
-        "url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/crash_frequency.csv"
+        "url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/crash_frequencyV2.csv"
     },
     "config": {
         "view": {
@@ -21,6 +21,7 @@
             "timeUnit": "date",
             "type": "ordinal",
             "title": "Day",
+            "impute":{"value":1},
             "axis": {
                 "labelAngle": 0,
                 "format": "%e"
@@ -31,6 +32,7 @@
             "timeUnit": "month",
             "type": "ordinal",
             "title": "Month",
+            "impute":{"value":1},
             "sort": ["Nov","Dec","Jan","Feb","Mar","Apr","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct"]
         },
         "color": {
