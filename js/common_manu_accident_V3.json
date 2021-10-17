@@ -15,9 +15,8 @@
         "x": {"field": "YEAR", "type": "temporal", "title": null},
     "y": {"field": "Count", "type": "quantitative", "title": "Crash in VIC"},
           "tooltip":[
-          {"field": "MANUFACTURE", "type":"nominal"},
-          {"field": "YEAR", "type":"temporal"},
-          {"field": "Count", "type":"quantitative"}
+          {"field": "YEAR", "type":"temporal","title":"Year"},
+          {"field": "Count", "type":"quantitative","title":"Number of Crashes"}
       ]
     }
   },
@@ -66,6 +65,7 @@
       "value": 0.2
     },
       "tooltip":[
+        {"field": "MANUFACTURE", "type":"nominal","title": "Manufacture"},
           {"field": "YEAR", "type":"temporal","title":"Year"},
           {"field": "Count", "type":"quantitative","title":"Number of Crashes"}
       ]
