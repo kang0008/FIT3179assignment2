@@ -34,7 +34,15 @@ li {
 
 p {
   font-family: 'Kanit', sans-serif;
-  font-size:19 ;
+  font-size: 22;
+}
+ul {
+  font-family: 'Kanit', sans-serif;
+  font-size: 22;
+}
+li {
+  font-family: 'Kanit', sans-serif;
+  font-size: 22;
 }
 .page {
     width: 1000px;
@@ -69,11 +77,11 @@ p {
       margin-top:0px;
     }
     .description-right {
-      padding-top: 20px
+      padding-top: 20px;
       padding-left: 20px;
     }
     .description-left{
-      padding-top: 20px
+      padding-top: 20px;
       padding-right: 20px;
     }
     .pure-g{
@@ -93,4 +101,3 @@ p {
   p.ex1 {
       padding-right: 800px;
     }
-}
