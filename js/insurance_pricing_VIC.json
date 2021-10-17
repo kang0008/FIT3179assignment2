@@ -76,8 +76,9 @@
       "legend": {"orient": "top", "title": null}
     },
     "tooltip": [
-      {"field": "Name", "type":"nominal"},
-      {"field": "Average Premium", "type":"quantitative"}
+      {"field": "Name", "type":"nominal","title":"Region"},
+      {"field": "SA4 code", "type":"nominal","title":"SA4 Code"},
+      {"field": "Average Premium", "type":"quantitative","title":"Average Premium ($)"}
     ]
   }
 }

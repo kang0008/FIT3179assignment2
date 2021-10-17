@@ -2,7 +2,7 @@
 
     "data": {"url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/accident_year_by_sex_age3.json"},
     "width": "container",
-    "height":450,
+    "height":"600",
     "layer":[{
         "transform":[
             {"calculate": "datum.sex == 1 ? 'Female' : 'Male'", "as": "gender"}],
@@ -25,8 +25,9 @@
           "legend": null
       },
       "tooltip":[
-          {"field": "count", "type":"quantitative"},
-          {"field": "gender", "type":"nominal"}
+        {"field": "gender", "type":"nominal","title":"Sex"},
+          {"field": "count", "type":"quantitative","title":"Number of Crashes"}
+          
       ],
       "opacity": {
           "condition": {

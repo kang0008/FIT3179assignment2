@@ -1,5 +1,6 @@
 {"data": {"url": "https://raw.githubusercontent.com/kang0008/FIT3179assignment2/main/data/accident_make_yearV3.csv"},
   "vconcat":[{
+    "title":"Total Crash in VIC",
   "width":"container",
   "height":160,
     "transform": [
@@ -20,7 +21,7 @@
       ]
     }
   },
-  {
+  { "title":"Total Crash in VIC- US and European Manufactures",
     "width":"container",
     "height":350,
       "transform": [
@@ -65,9 +66,8 @@
       "value": 0.2
     },
       "tooltip":[
-          {"field": "MANUFACTURE", "type":"nominal"},
-          {"field": "YEAR", "type":"temporal"},
-          {"field": "Count", "type":"quantitative"}
+          {"field": "YEAR", "type":"temporal","title":"Year"},
+          {"field": "Count", "type":"quantitative","title":"Number of Crashes"}
       ]
   },
   
@@ -100,7 +100,7 @@
   "config": {"view": {"stroke": null}}
 },
 
-{
+{ "title":"Total Crash in VIC- Asia Pacific Manufactures",
     "width":"container",
     "height":350,
       "transform": [
@@ -130,9 +130,9 @@
       "value": 0.2
     },
       "tooltip":[
-          {"field": "MANUFACTURE", "type":"nominal"},
-          {"field": "YEAR", "type":"temporal"},
-          {"field": "Count", "type":"quantitative"}
+        {"field": "MANUFACTURE", "type":"nominal","title": "Manufacture"},
+        {"field": "YEAR", "type":"temporal","title":"Year"},
+        {"field": "Count", "type":"quantitative","title":"Number of Crashes"}
       ]
   },
   

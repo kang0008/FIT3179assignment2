@@ -88,9 +88,10 @@
     "x": {"field": "lower", "type": "quantitative","title":"Lower Maintenance Cost ($)"},
     "y": {"field": "upper", "type": "quantitative","title":"Upper Maintenance Cost ($)"},
     "tooltip": [
-      {"field": "manufacture", "type": "nominal"},
-      {"field": "upper", "type": "quantitative"},
-      {"field": "lower", "type": "quantitative"}
+      {"field": "manufacture", "type": "nominal","title": "Manufacture"},
+      {"field": "country", "type":"nominal","title":"Country"},
+      {"field": "upper", "type": "quantitative","title":"Upper Cost ($)"},
+      {"field": "lower", "type": "quantitative","title":"Lower Cost ($)"}
     ],
     "color": {"field":"country", "type":"nominal","legend": {"orient": "top"}, "title":null}
     

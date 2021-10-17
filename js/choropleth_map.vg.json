@@ -67,10 +67,10 @@
         "legend": {"orient": "top", "title": null}
             },
     "tooltip": [
-        {"field":"properties.ABB_NAME", "type":"nominal"},
-        {"field":"average per household", "type":"quantitative"},
-        {"field":"total cars", "type":"quantitative"},
-        {"field":"total households", "type":"quantitative"}
+        {"field":"properties.ABB_NAME", "type":"nominal","title":"Suburb"},
+        {"field":"average per household", "type":"quantitative","title":"Average Cars per Household"},
+        {"field":"total cars", "type":"quantitative","title":"Total Cars"},
+        {"field":"total households", "type":"quantitative","title":"Total Households"}
     ]
     }
   }

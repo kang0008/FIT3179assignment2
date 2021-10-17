@@ -40,9 +40,9 @@
     },
     "order":{"field":"chasis"},
     "tooltip":[
-      {"field":"chasis", "type":"nominal"},
-      {"field":"Sales","type":"quantitative"},
-      {"field":"model","type":"nominal"}
+      {"field":"chasis", "type":"nominal","title":"Chasis"},
+      {"field":"Sales","type":"quantitative","title":"Sales Volume"},
+      {"field":"model","type":"nominal","title":"Car Model"}
     ]
   }
 }

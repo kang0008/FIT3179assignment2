@@ -31,7 +31,7 @@
             "value": 0
         },
       "tooltip": [
-        {"field": "state"},
+        {"field": "state","title":"State/Territory"},
         {"field": "car_sales2"},
         {"field":"time", "timeUnit":"yearmonth"}
                 ]
